@@ -4,7 +4,7 @@
 // Content-Type for .md files is owned by vercel.json, never set here.
 
 import { next, rewrite } from "@vercel/functions/middleware";
-import manifest from "./src/generated/token-manifest.json" with { type: "json" };
+import manifest from "./src/generated/token-manifest.js";
 
 export const config = {
   // Pages only: skip api routes, .well-known, and anything with a file extension.
@@ -52,7 +52,7 @@ export default function middleware(request: Request): Response {
 
   const headers: Record<string, string> = { Vary: "Accept" };
   if (variant === "markdown") {
-    const entry = (manifest as Record<string, { tokens: number; hash: string }>)[target];
+    const entry = manifest[target];
     if (entry) {
       headers["x-markdown-tokens"] = String(entry.tokens);
       headers["x-content-hash"] = entry.hash;

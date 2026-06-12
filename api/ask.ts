@@ -2,7 +2,7 @@
 // No LLM at runtime: factual lookups routed by intent keywords. Every query is
 // logged to function logs (the zero-provisioning query corpus; see /observatory).
 
-import generated from "../src/generated/canon.json" with { type: "json" };
+import generated from "../src/generated/canon.js";
 import { answerQuestion, type GeneratedCanon } from "../src/ask/answer.js";
 
 const g = generated as unknown as GeneratedCanon;

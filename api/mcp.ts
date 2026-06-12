@@ -4,7 +4,7 @@
 
 import { createMcpHandler } from "mcp-handler";
 import { z } from "zod";
-import generated from "../src/generated/canon.json" with { type: "json" };
+import generated from "../src/generated/canon.js";
 import { checkFit, parseAssetSize, type GeneratedCanon } from "../src/ask/answer.js";
 
 const g = generated as unknown as GeneratedCanon;
