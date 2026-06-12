@@ -1,0 +1,42 @@
+# Canonical client and partner list. Extracted verbatim from dxn.is js/main.js logos array on 2026-06-12.
+# sector: financial = credit unions, banks, CDFIs, industry orgs; social_impact = nonprofits, foundations, civic, humanitarian.
+last_verified: "2026-06-12"
+clients:
+  - { name: CUES, sector: financial }
+  - { name: National Credit Union Foundation, sector: financial }
+  - { name: Filene Research Institute, sector: financial }
+  - { name: America's Credit Unions, sector: financial }
+  - { name: Abound Credit Union, sector: financial }
+  - { name: First Entertainment Credit Union, sector: financial }
+  - { name: Sidney Federal Credit Union, sector: financial }
+  - { name: Langley Federal Credit Union, sector: financial }
+  - { name: Trabian, sector: financial }
+  - { name: Central 1, sector: financial }
+  - { name: Express Credit Union, sector: financial }
+  - { name: NCUA, sector: financial }
+  - { name: America First Credit Union, sector: financial }
+  - { name: CO-FED Credit Union, sector: financial }
+  - { name: Digital Federal Credit Union, sector: financial }
+  - { name: Wright-Patt Credit Union, sector: financial }
+  - { name: CU Student Choice, sector: financial }
+  - { name: R1 Credit Union, sector: financial }
+  - { name: Topline Federal Credit Union, sector: financial }
+  - { name: CommunitERE, sector: financial }
+  - { name: Lendgistics, sector: financial }
+  - { name: Sandia Laboratory Federal Credit Union, sector: financial }
+  - { name: Vantage West Credit Union, sector: financial }
+  - { name: TRUE Community Credit Union, sector: financial }
+  - { name: Brewery Credit Union, sector: financial }
+  - { name: Michigan Credit Union League, sector: financial }
+  - { name: State National Companies, sector: financial }
+  - { name: United Nations, sector: social_impact }
+  - { name: Thinkery, sector: social_impact }
+  - { name: BE, sector: social_impact }
+  - { name: Co-op Impact Lab, sector: social_impact }
+  - { name: UN OCHA, sector: social_impact }
+  - { name: Reading Cooperative, sector: social_impact }
+  - { name: UN Global Pulse, sector: social_impact }
+  - { name: Whole Person Economy, sector: social_impact }
+  - { name: Global Innovation Gathering, sector: social_impact }
+  - { name: Moeda, sector: social_impact }
+  - { name: Buckminster Fuller Institute, sector: social_impact }

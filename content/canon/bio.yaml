@@ -1,0 +1,60 @@
+# Canonical biography. Copy extracted verbatim from dxn.is llms.txt on 2026-06-12.
+name: Brent Dixon
+title: Strategic Facilitator
+company: Dixon Strategic Labs
+company_founded: 2022
+location: Oakland, California
+last_verified: "2026-06-12"
+summary: >-
+  Brent Dixon offers strategic facilitation for credit unions in the age of
+  agentic AI. He works with credit union CEOs and boards on strategy that
+  holds up when it meets reality.
+narrative:
+  - >-
+    Brent Dixon is a strategic facilitator based in Oakland, California. He
+    founded Dixon Strategic Labs in 2022 after twenty years working alongside
+    communities and cooperatives, co-designing the systems, gatherings, and
+    tools they use to do their work together.
+  - >-
+    Brent thinks like a designer, which means he takes complex strategy work
+    and makes it clear, usable, and built for the people who have to live with
+    it. He is also a futurist whose practice covers AI, open banking,
+    stablecoins, emerging technology, experimentation, and strategic foresight.
+    He lives in Oakland, California with his son and a bossy cat named Bug.
+affiliations:
+  - org: Dixon Strategic Labs
+    role: Founder
+    start: 2022
+    current: true
+    detail: Strategic facilitation for credit unions in the age of agentic AI.
+  - org: United Nations
+    role: Innovation lab founder; UN Innovation Network co-chair
+    detail: >-
+      Built the first innovation lab to serve offices across the Secretariat
+      and co-chaired the UN Innovation Network, including a machine-learning
+      project that helped humanitarian workers turn real-time public data into
+      crisis response planning.
+  - org: Filene Research Institute
+    role: Founder of The Cooperative Trust; i3 Innovation program lead
+    detail: >-
+      Founded The Cooperative Trust, a community of rising credit union
+      professionals whose original crash of the industry's biggest event became
+      an annual program Filene still runs today, and later led the i3
+      Innovation program for senior credit union executives.
+  - org: Singularity University
+    role: Future of Finance Teaching Fellow
+    detail: >-
+      Mentored and advised teams that secured six-figure funding for their
+      technology startups, one of which was later acquired.
+  - org: Communitere International
+    role: Board Chair
+    detail: Humanitarian maker space network.
+  - org: Moeda Seeds
+    role: Co-founder
+    detail: >-
+      Blockchain cooperative lending platform for Brazilian agricultural
+      cooperatives.
+speaking_representation: Category 6 Consulting
+same_as:
+  - https://dxn.is
+  - https://ai4fis.beehiiv.com

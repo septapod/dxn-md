@@ -1,0 +1,26 @@
+# Canonical framework. Copy extracted verbatim from dxn.is llms.txt on 2026-06-12.
+last_verified: "2026-06-12"
+name: Three conditions for strategy that holds up
+intro: Brent's framework for the work, drawn from years of facilitation.
+conditions:
+  - name: Group alignment
+    body: >-
+      Each participant shares their views privately before the session. That
+      tells the team where they agree and where they disagree, so they can
+      spend their time reconciling the real gaps.
+  - name: Prioritized choices
+    body: >-
+      Michael Porter wrote, "The essence of strategy is choosing what not to
+      do." Two or three priorities a team can execute will outperform a long
+      list of initiatives all marked "high priority."
+    citation:
+      quote: The essence of strategy is choosing what not to do.
+      author: Michael Porter
+      source: What Is Strategy? (Harvard Business Review, 1996)
+      url: https://hbr.org/1996/11/what-is-strategy
+  - name: Tested bets
+    body: >-
+      Every strategy is a bet. The question is whether you are improving the
+      odds before you commit. "What would need to be true for this to work?"
+      turns a guess into something you can test, and a tested bet is one a team
+      can adapt when reality shifts.

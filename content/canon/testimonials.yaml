@@ -1,0 +1,39 @@
+# Canonical testimonials. Quote text extracted verbatim from dxn.is index.html on 2026-06-12.
+last_verified: "2026-06-12"
+testimonials:
+  - quote: Brent led the most strategic strategic planning sessions we've ever had.
+    author: Ray Springsteen
+    role: CEO
+    org: Abound Credit Union
+  - quote: >-
+      Brent was fantastic! I really appreciate how he tailored his presentation
+      for our event, and our audience truly enjoyed it.
+    author: Rebekah Henry
+    role: Event Planner
+    org: Michigan Credit Union League
+  - quote: That was the best strategic planning discussion we've ever had.
+    author: Mary Beth Spuck
+    role: CEO
+    org: Resource One Credit Union
+  - quote: >-
+      Brent is an innovative, forward thinking leader, who inspires the next
+      wave of leadership. I credit Brent as one of the reasons I have found
+      success at such an early age.
+    author: Ronaldo Hardy
+    role: CEO
+    org: Balance Financial Wellness
+  - quote: >-
+      I would unequivocally recommend him as a facilitator and guide for your
+      strategic discussions.
+    author: George Hofheimer
+    role: Founder
+    org: Hofheimer Strategy Advisors
+review:
+  # Schema.org Review block carried verbatim from dxn.is index.html head.
+  rating: 5
+  best_rating: 5
+  author_org: Express Credit Union
+  body: >-
+    Brent's facilitation created an environment where our leadership team could
+    tackle sensitive issues constructively. His ability to synthesize complex
+    discussions and guide us toward clear decisions was exactly what we needed.

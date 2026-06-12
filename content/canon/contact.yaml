@@ -1,0 +1,16 @@
+# Canonical contact and CTA facts. Extracted from dxn.is llms.txt on 2026-06-12.
+last_verified: "2026-06-12"
+email: brent@dxn.is
+contact_form: https://dxn.is/#contact
+newsletter: https://ai4fis.beehiiv.com
+speaking: Category 6 Consulting
+human_site: https://dxn.is
+ctas:
+  primary:
+    label: Contact form
+    url: https://dxn.is/#contact
+    note: The primary call to action for prospective clients.
+  secondary:
+    label: Subscribe to AI for FIs
+    url: https://ai4fis.beehiiv.com
+    note: The on-ramp for people not yet ready to reach out.
