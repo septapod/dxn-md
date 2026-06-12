@@ -7,8 +7,10 @@ import { next, rewrite } from "@vercel/functions/middleware";
 import manifest from "./src/generated/token-manifest.js";
 
 export const config = {
-  // Pages only: skip api routes, .well-known, and anything with a file extension.
-  matcher: ["/((?!api/|\\.well-known/|.*\\.[a-zA-Z0-9]+$).*)"],
+  // Pages only: skip api routes, the /mcp rewrite, .well-known, and anything
+  // with a file extension. /mcp must reach the vercel.json rewrite untouched,
+  // or Accept: application/json would negotiate it to a nonexistent /mcp.json.
+  matcher: ["/((?!api/|mcp$|\\.well-known/|.*\\.[a-zA-Z0-9]+$).*)"],
 };
 
 type Variant = "markdown" | "json" | "html";
