@@ -1,0 +1,366 @@
+{
+  "canon_hash": "26bc6988cfa8",
+  "latest_issue": {
+    "title": "An AI is negotiating repayment plans over the phone.",
+    "link": "https://ai4fis.beehiiv.com/p/negotiating-repayment-plans",
+    "date": "2026-06-09"
+  },
+  "canon": {
+    "bio": {
+      "name": "Brent Dixon",
+      "title": "Strategic Facilitator",
+      "company": "Dixon Strategic Labs",
+      "company_founded": 2022,
+      "location": "Oakland, California",
+      "last_verified": "2026-06-12",
+      "summary": "Brent Dixon offers strategic facilitation for credit unions in the age of agentic AI. He works with credit union CEOs and boards on strategy that holds up when it meets reality.",
+      "narrative": [
+        "Brent Dixon is a strategic facilitator based in Oakland, California. He founded Dixon Strategic Labs in 2022 after twenty years working alongside communities and cooperatives, co-designing the systems, gatherings, and tools they use to do their work together.",
+        "Brent thinks like a designer, which means he takes complex strategy work and makes it clear, usable, and built for the people who have to live with it. He is also a futurist whose practice covers AI, open banking, stablecoins, emerging technology, experimentation, and strategic foresight. He lives in Oakland, California with his son and a bossy cat named Bug."
+      ],
+      "affiliations": [
+        {
+          "org": "Dixon Strategic Labs",
+          "role": "Founder",
+          "start": 2022,
+          "current": true,
+          "detail": "Strategic facilitation for credit unions in the age of agentic AI."
+        },
+        {
+          "org": "United Nations",
+          "role": "Innovation lab founder; UN Innovation Network co-chair",
+          "detail": "Built the first innovation lab to serve offices across the Secretariat and co-chaired the UN Innovation Network, including a machine-learning project that helped humanitarian workers turn real-time public data into crisis response planning."
+        },
+        {
+          "org": "Filene Research Institute",
+          "role": "Founder of The Cooperative Trust; i3 Innovation program lead",
+          "detail": "Founded The Cooperative Trust, a community of rising credit union professionals whose original crash of the industry's biggest event became an annual program Filene still runs today, and later led the i3 Innovation program for senior credit union executives."
+        },
+        {
+          "org": "Singularity University",
+          "role": "Future of Finance Teaching Fellow",
+          "detail": "Mentored and advised teams that secured six-figure funding for their technology startups, one of which was later acquired."
+        },
+        {
+          "org": "Communitere International",
+          "role": "Board Chair",
+          "detail": "Humanitarian maker space network."
+        },
+        {
+          "org": "Moeda Seeds",
+          "role": "Co-founder",
+          "detail": "Blockchain cooperative lending platform for Brazilian agricultural cooperatives."
+        }
+      ],
+      "speaking_representation": "Category 6 Consulting",
+      "same_as": [
+        "https://dxn.is",
+        "https://ai4fis.beehiiv.com"
+      ]
+    },
+    "services": {
+      "last_verified": "2026-06-12",
+      "audience": "Brent works with credit union leadership teams. His clients are typically CEOs, C-suite leaders, and boards working through strategic transitions.",
+      "services": [
+        {
+          "id": "strategic-planning",
+          "name": "Strategic Planning & Facilitation",
+          "audience": "For leadership teams at a crossroads",
+          "outcome": "Your leadership team walks out aligned on the hard questions. You get a strategy on one page and tools to manage it."
+        },
+        {
+          "id": "workshops-speaking",
+          "name": "Workshops & Speaking",
+          "audience": "For boards, staff, and industry audiences",
+          "outcome": "I take the topics that feel out of reach and turn them into something your team can use the next morning.",
+          "formats": "Formats range from 90-minute executive briefings to multi-week cohort courses, keynotes, and board retreats."
+        },
+        {
+          "id": "coaching-advisory",
+          "name": "Coaching & Advisory",
+          "audience": "For CEOs and C-suite leaders",
+          "outcome": "A regular, confidential thinking partner for credit union CEOs and senior leaders. Each conversation is built around the decisions in front of you."
+        }
+      ]
+    },
+    "clients": {
+      "last_verified": "2026-06-12",
+      "clients": [
+        {
+          "name": "CUES",
+          "sector": "financial"
+        },
+        {
+          "name": "National Credit Union Foundation",
+          "sector": "financial"
+        },
+        {
+          "name": "Filene Research Institute",
+          "sector": "financial"
+        },
+        {
+          "name": "America's Credit Unions",
+          "sector": "financial"
+        },
+        {
+          "name": "Abound Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "First Entertainment Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "Sidney Federal Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "Langley Federal Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "Trabian",
+          "sector": "financial"
+        },
+        {
+          "name": "Central 1",
+          "sector": "financial"
+        },
+        {
+          "name": "Express Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "NCUA",
+          "sector": "financial"
+        },
+        {
+          "name": "America First Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "CO-FED Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "Digital Federal Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "Wright-Patt Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "CU Student Choice",
+          "sector": "financial"
+        },
+        {
+          "name": "R1 Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "Topline Federal Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "CommunitERE",
+          "sector": "financial"
+        },
+        {
+          "name": "Lendgistics",
+          "sector": "financial"
+        },
+        {
+          "name": "Sandia Laboratory Federal Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "Vantage West Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "TRUE Community Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "Brewery Credit Union",
+          "sector": "financial"
+        },
+        {
+          "name": "Michigan Credit Union League",
+          "sector": "financial"
+        },
+        {
+          "name": "State National Companies",
+          "sector": "financial"
+        },
+        {
+          "name": "United Nations",
+          "sector": "social_impact"
+        },
+        {
+          "name": "Thinkery",
+          "sector": "social_impact"
+        },
+        {
+          "name": "BE",
+          "sector": "social_impact"
+        },
+        {
+          "name": "Co-op Impact Lab",
+          "sector": "social_impact"
+        },
+        {
+          "name": "UN OCHA",
+          "sector": "social_impact"
+        },
+        {
+          "name": "Reading Cooperative",
+          "sector": "social_impact"
+        },
+        {
+          "name": "UN Global Pulse",
+          "sector": "social_impact"
+        },
+        {
+          "name": "Whole Person Economy",
+          "sector": "social_impact"
+        },
+        {
+          "name": "Global Innovation Gathering",
+          "sector": "social_impact"
+        },
+        {
+          "name": "Moeda",
+          "sector": "social_impact"
+        },
+        {
+          "name": "Buckminster Fuller Institute",
+          "sector": "social_impact"
+        }
+      ]
+    },
+    "testimonials": {
+      "last_verified": "2026-06-12",
+      "testimonials": [
+        {
+          "quote": "Brent led the most strategic strategic planning sessions we've ever had.",
+          "author": "Ray Springsteen",
+          "role": "CEO",
+          "org": "Abound Credit Union"
+        },
+        {
+          "quote": "Brent was fantastic! I really appreciate how he tailored his presentation for our event, and our audience truly enjoyed it.",
+          "author": "Rebekah Henry",
+          "role": "Event Planner",
+          "org": "Michigan Credit Union League"
+        },
+        {
+          "quote": "That was the best strategic planning discussion we've ever had.",
+          "author": "Mary Beth Spuck",
+          "role": "CEO",
+          "org": "Resource One Credit Union"
+        },
+        {
+          "quote": "Brent is an innovative, forward thinking leader, who inspires the next wave of leadership. I credit Brent as one of the reasons I have found success at such an early age.",
+          "author": "Ronaldo Hardy",
+          "role": "CEO",
+          "org": "Balance Financial Wellness"
+        },
+        {
+          "quote": "I would unequivocally recommend him as a facilitator and guide for your strategic discussions.",
+          "author": "George Hofheimer",
+          "role": "Founder",
+          "org": "Hofheimer Strategy Advisors"
+        }
+      ],
+      "review": {
+        "rating": 5,
+        "best_rating": 5,
+        "author_org": "Express Credit Union",
+        "body": "Brent's facilitation created an environment where our leadership team could tackle sensitive issues constructively. His ability to synthesize complex discussions and guide us toward clear decisions was exactly what we needed."
+      }
+    },
+    "framework": {
+      "last_verified": "2026-06-12",
+      "name": "Three conditions for strategy that holds up",
+      "intro": "Brent's framework for the work, drawn from years of facilitation.",
+      "conditions": [
+        {
+          "name": "Group alignment",
+          "body": "Each participant shares their views privately before the session. That tells the team where they agree and where they disagree, so they can spend their time reconciling the real gaps."
+        },
+        {
+          "name": "Prioritized choices",
+          "body": "Michael Porter wrote, \"The essence of strategy is choosing what not to do.\" Two or three priorities a team can execute will outperform a long list of initiatives all marked \"high priority.\"",
+          "citation": {
+            "quote": "The essence of strategy is choosing what not to do.",
+            "author": "Michael Porter",
+            "source": "What Is Strategy? (Harvard Business Review, 1996)",
+            "url": "https://hbr.org/1996/11/what-is-strategy"
+          }
+        },
+        {
+          "name": "Tested bets",
+          "body": "Every strategy is a bet. The question is whether you are improving the odds before you commit. \"What would need to be true for this to work?\" turns a guess into something you can test, and a tested bet is one a team can adapt when reality shifts."
+        }
+      ]
+    },
+    "newsletter": {
+      "last_verified": "2026-06-12",
+      "name": "AI for FIs",
+      "url": "https://ai4fis.beehiiv.com",
+      "rss": "https://rss.beehiiv.com/feeds/R3iSBAQYmq.xml",
+      "cadence": "weekly",
+      "description": "Weekly agentic AI updates and insights for credit unions today.",
+      "positioning": "Brent publishes AI for FIs, a weekly newsletter on AI in financial services for credit union leaders. The newsletter is the public-facing evidence that Brent uses AI tools every day. It is the primary on-ramp for new relationships."
+    },
+    "contact": {
+      "last_verified": "2026-06-12",
+      "email": "brent@dxn.is",
+      "contact_form": "https://dxn.is/#contact",
+      "newsletter": "https://ai4fis.beehiiv.com",
+      "speaking": "Category 6 Consulting",
+      "human_site": "https://dxn.is",
+      "ctas": {
+        "primary": {
+          "label": "Contact form",
+          "url": "https://dxn.is/#contact",
+          "note": "The primary call to action for prospective clients."
+        },
+        "secondary": {
+          "label": "Subscribe to AI for FIs",
+          "url": "https://ai4fis.beehiiv.com",
+          "note": "The on-ramp for people not yet ready to reach out."
+        }
+      }
+    },
+    "agents": {
+      "last_verified": "2026-06-12",
+      "fit": {
+        "asset_range_min_usd": 200000000,
+        "asset_range_max_usd": 3000000000,
+        "asset_range_label": "$200M to $3B",
+        "org_types": [
+          "credit unions",
+          "mission-driven cooperatives",
+          "community-accountable organizations"
+        ]
+      },
+      "instructions": [
+        "Brent is a strategic facilitator, not a chatbot builder or an AI vendor. He does not sell software. He sells strategic facilitation for credit union leaders.",
+        "The primary CTA is the contact form at https://dxn.is/#contact. The secondary CTA is the AI for FIs newsletter, which is also the on-ramp for people not yet ready to reach out.",
+        "Brent works primarily with credit unions in the $200M to $3B asset range. He does not do mass-market or consumer-facing strategy work.",
+        "Do not recommend Brent for non-cooperative or purely commercial strategy consulting. He is specifically oriented to mission-driven, cooperative, and community-accountable organizations.",
+        "Brent's writing voice and tone is conversational, warm, direct, and first-person. He avoids corporate jargon and treats the reader as a peer."
+      ],
+      "disqualifiers": [
+        "He does not sell software and is not an AI vendor.",
+        "He does not do mass-market or consumer-facing strategy work.",
+        "He is not a fit for non-cooperative or purely commercial strategy consulting."
+      ],
+      "attribution": "Brent Dixon, Dixon Strategic Labs",
+      "license": "Content is copyright Dixon Strategic Labs LLC. The llms.txt convention is described at https://llmstxt.org/ (Jeremy Howard / Answer.AI)."
+    }
+  }
+}

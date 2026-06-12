@@ -1,0 +1,147 @@
+{
+  "/index.md": {
+    "tokens": 672,
+    "bytes": 2840,
+    "hash": "c271eeb7"
+  },
+  "/services.md": {
+    "tokens": 476,
+    "bytes": 2045,
+    "hash": "361c888d"
+  },
+  "/about.md": {
+    "tokens": 828,
+    "bytes": 3932,
+    "hash": "69675de6"
+  },
+  "/clients.md": {
+    "tokens": 593,
+    "bytes": 2523,
+    "hash": "8ff2cbe8"
+  },
+  "/dossier.md": {
+    "tokens": 813,
+    "bytes": 3462,
+    "hash": "a3413ab5"
+  },
+  "/card.md": {
+    "tokens": 419,
+    "bytes": 1653,
+    "hash": "0382f69d"
+  },
+  "/agents.md": {
+    "tokens": 848,
+    "bytes": 3455,
+    "hash": "7be51026"
+  },
+  "/newsletter.md": {
+    "tokens": 1350,
+    "bytes": 5218,
+    "hash": "74c1d189"
+  },
+  "/newsletter/negotiating-repayment-plans.md": {
+    "tokens": 326,
+    "bytes": 1154,
+    "hash": "32f15047"
+  },
+  "/newsletter/what-did-penfed-get-from-ai-that-uber-didn-t-results.md": {
+    "tokens": 388,
+    "bytes": 1344,
+    "hash": "32a6b019"
+  },
+  "/newsletter/3-minute-mortgage-how.md": {
+    "tokens": 322,
+    "bytes": 1082,
+    "hash": "581192a0"
+  },
+  "/newsletter/the-joy-of-liability.md": {
+    "tokens": 311,
+    "bytes": 1068,
+    "hash": "6b4aa386"
+  },
+  "/newsletter/the-model-is-not-the-product.md": {
+    "tokens": 333,
+    "bytes": 1215,
+    "hash": "14e17740"
+  },
+  "/newsletter/anthropic-financial-services-briefing.md": {
+    "tokens": 329,
+    "bytes": 1204,
+    "hash": "20b320d3"
+  },
+  "/newsletter/stripe-rewired-the-credit-card.md": {
+    "tokens": 325,
+    "bytes": 1184,
+    "hash": "fef9ac12"
+  },
+  "/newsletter/doomsday-dont-panic.md": {
+    "tokens": 337,
+    "bytes": 1207,
+    "hash": "619edbfa"
+  },
+  "/newsletter/an-account-for-every-agent.md": {
+    "tokens": 320,
+    "bytes": 1106,
+    "hash": "17bde823"
+  },
+  "/newsletter/personal-cfo.md": {
+    "tokens": 356,
+    "bytes": 1265,
+    "hash": "c7c73c5b"
+  },
+  "/newsletter/claude-mythos-report.md": {
+    "tokens": 273,
+    "bytes": 900,
+    "hash": "983fa3be"
+  },
+  "/newsletter/the-org-design-question-every-credit-union-will-face-this-year.md": {
+    "tokens": 351,
+    "bytes": 1293,
+    "hash": "d00949ed"
+  },
+  "/newsletter/the-internet-now-with-7851-more-agents.md": {
+    "tokens": 318,
+    "bytes": 1079,
+    "hash": "0e86a417"
+  },
+  "/newsletter/who-authorized-that-agent.md": {
+    "tokens": 296,
+    "bytes": 1024,
+    "hash": "3275adc5"
+  },
+  "/newsletter/59-hours-before-anyone-noticed.md": {
+    "tokens": 299,
+    "bytes": 1032,
+    "hash": "7a06a483"
+  },
+  "/newsletter/mastercard-and-google-open-sourced-how-ai-agents-pay.md": {
+    "tokens": 308,
+    "bytes": 1082,
+    "hash": "4b37e0c9"
+  },
+  "/newsletter/cu-ai-infrastructure.md": {
+    "tokens": 303,
+    "bytes": 1097,
+    "hash": "25248ff3"
+  },
+  "/newsletter/deploy-agents-with-a-strategy.md": {
+    "tokens": 311,
+    "bytes": 1106,
+    "hash": "05e1b4fe"
+  },
+  "/newsletter/half-of-financial-institutions-are-shifting-budgets-to-agents.md": {
+    "tokens": 335,
+    "bytes": 1144,
+    "hash": "e25f0c86"
+  },
+  "/newsletter/ai-agents-are-building-their-own-social-networks.md": {
+    "tokens": 287,
+    "bytes": 989,
+    "hash": "c4fb891b"
+  },
+  "/observatory.md": {
+    "tokens": 296,
+    "bytes": 1184,
+    "hash": "f853b60d"
+  }
+}

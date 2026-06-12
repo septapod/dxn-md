@@ -1,0 +1,130 @@
+// The whole site, one pass: load canon -> build pages -> gate -> emit dist/.
+// Deterministic by construction: no wall-clock dates (the byline comes from
+// data/changes.json), so CI can build twice and diff byte-for-byte.
+
+import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import { loadCanon } from "../src/canon/load.js";
+import { GA4_MEASUREMENT_ID, SITE_URL } from "../src/config.js";
+import { emitPage, writeFile, type EmitOptions } from "../src/build/emit.js";
+import { loadFeedSnapshot } from "../src/build/feed.js";
+import { lintPages } from "../src/build/lint-geo.js";
+import { mdPath, type Page } from "../src/build/page.js";
+import {
+  renderAgentCardJson,
+  renderAiAgentJson,
+  renderChangesAtom,
+  renderChangesJson,
+  renderLlmsTxt,
+  renderRobotsTxt,
+  renderSitemap,
+  type ChangeLog,
+} from "../src/build/protocol.js";
+import type { TokenManifest } from "../src/build/tokens.js";
+import { buildHome } from "../src/pages/home.js";
+import { buildServices } from "../src/pages/services.js";
+import { buildAbout } from "../src/pages/about.js";
+import { buildClients } from "../src/pages/clients.js";
+import { buildDossier } from "../src/pages/dossier.js";
+import { buildCard } from "../src/pages/card.js";
+import { buildAgentsPage } from "../src/pages/agents-page.js";
+import { buildIssuePage, buildNewsletterIndex } from "../src/pages/newsletter.js";
+import { buildObservatory, type ObservatoryData } from "../src/pages/observatory.js";
+
+const CARD_MAX_BYTES = 4096;
+
+function readJson<T>(path: string): T {
+  return JSON.parse(readFileSync(path, "utf8")) as T;
+}
+
+export function build(root = process.cwd()): { pages: Page[]; manifest: TokenManifest } {
+  const dist = join(root, "dist");
+  rmSync(dist, { recursive: true, force: true });
+  mkdirSync(dist, { recursive: true });
+
+  const { canon, hash: canonHash } = loadCanon(root);
+  const changes = readJson<ChangeLog>(join(root, "data", "changes.json"));
+  const feedItems = loadFeedSnapshot(join(root, "data", "feed-snapshot.xml"));
+  const observatory: ObservatoryData = {
+    bots: readJson(join(root, "data", "observatory", "bots.json")),
+    negotiation: readJson(join(root, "data", "observatory", "negotiation.json")),
+    queries: readJson(join(root, "data", "observatory", "queries.json")),
+  };
+
+  const bylineDate = changes.entries[0]?.date ?? changes.updated;
+  const ctx = { bylineDate, siteUrl: SITE_URL };
+
+  const pages: Page[] = [
+    buildHome(canon, ctx),
+    buildServices(canon, ctx),
+    buildAbout(canon, ctx),
+    buildClients(canon, ctx),
+    buildDossier(canon, ctx),
+    buildCard(canon, ctx),
+    buildAgentsPage(canon, ctx),
+    buildNewsletterIndex(canon, feedItems, ctx),
+    ...feedItems.map((item) => buildIssuePage(canon, item, ctx)),
+    buildObservatory(canon, observatory, ctx),
+  ];
+
+  // Gate 1: GEO lint (origin R16/R19) — fail loudly, naming page and rule.
+  const failures = lintPages(pages);
+  if (failures.length) {
+    for (const f of failures) console.error(`GEO lint: ${f.route} — ${f.rule}`);
+    throw new Error(`GEO lint failed for ${failures.length} rule(s)`);
+  }
+
+  // Emit pages (HTML + md + json) and collect the token manifest.
+  const manifest: TokenManifest = {};
+  const opts: EmitOptions = { dist, canonHash, siteUrl: SITE_URL, ga4Id: GA4_MEASUREMENT_ID };
+  for (const page of pages) emitPage(page, opts, manifest);
+
+  // Gate 2: the identity card must stay a single cheap fetch (origin R10/R20).
+  const cardBytes = manifest[mdPath("/card")]?.bytes ?? Infinity;
+  if (cardBytes > CARD_MAX_BYTES) {
+    throw new Error(`card gate: /card.md is ${cardBytes} bytes, cap is ${CARD_MAX_BYTES}`);
+  }
+
+  // Protocol surfaces (origin R6, R8, R9).
+  writeFile(dist, "/llms.txt", renderLlmsTxt(canon, pages, manifest, SITE_URL));
+  writeFile(dist, "/robots.txt", renderRobotsTxt(SITE_URL));
+  writeFile(dist, "/sitemap.xml", renderSitemap(pages, changes, SITE_URL));
+  writeFile(dist, "/changes.json", renderChangesJson(changes, SITE_URL));
+  writeFile(dist, "/changes.xml", renderChangesAtom(changes, SITE_URL));
+  writeFile(dist, "/.well-known/ai-agent.json", renderAiAgentJson(canon, SITE_URL));
+  writeFile(dist, "/.well-known/agent-card.json", renderAgentCardJson(canon, SITE_URL));
+  writeFile(dist, "/token-manifest.json", JSON.stringify(manifest, null, 2));
+
+  // src/generated is the build-time data bridge for middleware.ts and api/*.
+  // It is tracked in git and freshness-gated in CI (git diff --exit-code after
+  // a build), so the deployed middleware always matches the deployed content.
+  const generated = join(root, "src", "generated");
+  mkdirSync(generated, { recursive: true });
+  writeFileSync(join(generated, "token-manifest.json"), JSON.stringify(manifest, null, 2));
+  const latest = feedItems[0];
+  writeFileSync(
+    join(generated, "canon.json"),
+    JSON.stringify(
+      {
+        canon_hash: canonHash,
+        latest_issue: latest
+          ? { title: latest.title, link: latest.link, date: latest.date }
+          : null,
+        canon,
+      },
+      null,
+      2,
+    ),
+  );
+
+  return { pages, manifest };
+}
+
+const isMain = process.argv[1]?.endsWith("build.ts");
+if (isMain) {
+  const { pages, manifest } = build();
+  const totalTokens = Object.values(manifest).reduce((sum, e) => sum + e.tokens, 0);
+  console.log(
+    `built ${pages.length} pages (${Object.keys(manifest).length} markdown variants, ${totalTokens} tokens total)`,
+  );
+}
