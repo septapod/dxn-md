@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - name: Build (gates run inside)
+        run: npm run build
+      - name: Generated bridge files are fresh
+        run: git diff --exit-code src/generated
+      - name: Determinism — second build must be byte-identical
+        run: |
+          cp -r dist /tmp/dist-first
+          npm run build
+          diff -r dist /tmp/dist-first
+      - name: No generated artifacts tracked in git
+        run: |
+          if [ -n "$(git ls-files dist)" ]; then
+            echo "dist/ files must not be tracked" && exit 1
+          fi

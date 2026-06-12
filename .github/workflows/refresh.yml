@@ -1,0 +1,39 @@
+name: Weekly refresh
+
+# Pulls the latest AI for FIs feed snapshot and regenerates the change log.
+# The bot push triggers a Vercel deploy automatically, so the site stays fresh
+# with nobody touching it (origin requirement R22).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # full history; regen-changes reads git log
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Refresh feed snapshot
+        run: node scripts/refresh-rss.mjs
+      - name: Regenerate change log from git history
+        run: npx tsx scripts/regen-changes.ts
+      - name: Rebuild generated bridge files
+        run: npm run build
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ src/generated/
+          git diff --staged --quiet || git commit -m "chore(data): weekly feed snapshot and change log refresh"
+          git push
