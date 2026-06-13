@@ -18,7 +18,7 @@ export function buildAgentsPage(canon: Canon, ctx: { bylineDate: string; siteUrl
           {
             kind: "facts",
             items: [
-              { label: "Content negotiation", value: "Send `Accept: text/markdown` to any page URL for markdown, or `Accept: application/json` for the raw page record. Responses carry `Vary: Accept` and `x-markdown-tokens` (o200k_base estimate). Direct paths also work: append `.md` or `.json` to any route." },
+              { label: "Content negotiation", value: "Send `Accept: text/markdown` to any page URL for markdown, or `Accept: application/json` for the raw page record. Negotiated responses carry `Vary: Accept` and `x-markdown-tokens` (o200k_base estimate). Direct paths also work — append `.md` or `.json` to any route — and skip those headers; llms.txt lists every page's token cost inline." },
               { label: "llms.txt", value: `${ctx.siteUrl}/llms.txt indexes every page with its markdown link and token cost.` },
               { label: "One-fetch summary", value: `${ctx.siteUrl}/card.md answers most queries in a single sub-4KB response.` },
               { label: "Change tracking", value: `${ctx.siteUrl}/changes.json and ${ctx.siteUrl}/changes.xml list dated content changes, so you can check what is new without re-crawling.` },

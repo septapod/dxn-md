@@ -1,4 +1,5 @@
 import type { Canon } from "../canon/schema.js";
+import { quoteAttribution } from "../canon/load.js";
 import type { Page } from "../build/page.js";
 import { personLd, professionalServiceLd, websiteLd } from "../build/jsonld.js";
 
@@ -38,7 +39,7 @@ export function buildHome(canon: Canon, ctx: { bylineDate: string; siteUrl: stri
             value: String(clientCount),
             label: "client and partner organizations across credit unions, cooperatives, and social impact (full list at /clients)",
           },
-          { kind: "quote", text: t.quote, attribution: `${t.author}, ${t.role}, ${t.org}` },
+          { kind: "quote", text: t.quote, attribution: quoteAttribution(t) },
         ],
       },
       {

@@ -1,4 +1,5 @@
 import type { Canon } from "../canon/schema.js";
+import { quoteAttribution, requireTestimonial } from "../canon/load.js";
 import type { Page } from "../build/page.js";
 import { personLd } from "../build/jsonld.js";
 
@@ -6,7 +7,7 @@ import { personLd } from "../build/jsonld.js";
 // This page repatriates the bio facts that previously lived only in dxn.is
 // llms.txt (Moeda Seeds, Communitere International).
 export function buildAbout(canon: Canon, ctx: { bylineDate: string; siteUrl: string }): Page {
-  const hofheimer = canon.testimonials.testimonials.find((t) => t.org === "Hofheimer Strategy Advisors")!;
+  const hofheimer = requireTestimonial(canon, "Hofheimer Strategy Advisors");
   return {
     route: "/about",
     title: `About ${canon.bio.name} — the authority record`,
@@ -70,7 +71,7 @@ export function buildAbout(canon: Canon, ctx: { bylineDate: string; siteUrl: str
       {
         heading: "Independent assessment",
         blocks: [
-          { kind: "quote", text: hofheimer.quote, attribution: `${hofheimer.author}, ${hofheimer.role}, ${hofheimer.org}` },
+          { kind: "quote", text: hofheimer.quote, attribution: quoteAttribution(hofheimer) },
           { kind: "facts", items: [{ label: "Speaking representation", value: canon.bio.speaking_representation }] },
         ],
       },

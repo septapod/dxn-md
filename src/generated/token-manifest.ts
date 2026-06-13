@@ -21,9 +21,9 @@ export default {
     "hash": "8ff2cbe8"
   },
   "/dossier.md": {
-    "tokens": 813,
+    "tokens": 819,
     "bytes": 3462,
-    "hash": "a3413ab5"
+    "hash": "599f595e"
   },
   "/card.md": {
     "tokens": 419,
@@ -31,9 +31,9 @@ export default {
     "hash": "0382f69d"
   },
   "/agents.md": {
-    "tokens": 848,
-    "bytes": 3455,
-    "hash": "7be51026"
+    "tokens": 866,
+    "bytes": 3543,
+    "hash": "95edd5e8"
   },
   "/newsletter.md": {
     "tokens": 1350,

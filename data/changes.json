@@ -3,8 +3,31 @@
   "entries": [
     {
       "date": "2026-06-12",
+      "summary": "feat(build): tri-variant generator, protocol surfaces, GEO and card gates",
+      "areas": [
+        "newsletter-feed"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "summary": "feat(canon): content canon with verbatim dxn.is facts, zod schemas",
+      "areas": [
+        "agents",
+        "bio",
+        "clients",
+        "contact",
+        "framework",
+        "newsletter",
+        "services",
+        "testimonials"
+      ]
+    },
+    {
+      "date": "2026-06-12",
       "summary": "Initial publication of the dxn.md agent-native site: content canon, tri-variant pages, llms.txt, feeds, and agent endpoints.",
-      "areas": ["site"]
+      "areas": [
+        "site"
+      ]
     }
   ]
 }

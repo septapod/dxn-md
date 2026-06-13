@@ -1,4 +1,5 @@
 import type { Canon } from "../canon/schema.js";
+import { quoteAttribution } from "../canon/load.js";
 import type { Page } from "../build/page.js";
 import { professionalServiceLd, reviewLd } from "../build/jsonld.js";
 
@@ -72,14 +73,14 @@ export function buildDossier(canon: Canon, ctx: { bylineDate: string; siteUrl: s
           {
             kind: "qa",
             q: "How should first contact happen?",
-            a: `${a.instructions[1]!}`,
+            a: `The primary CTA is the contact form at ${canon.contact.ctas.primary.url}. The secondary CTA is ${canon.newsletter.name} (${canon.contact.ctas.secondary.url}), ${canon.contact.ctas.secondary.note.charAt(0).toLowerCase()}${canon.contact.ctas.secondary.note.slice(1).replace(/\.$/, "")}.`,
           },
         ],
       },
       {
         heading: "Evidence",
         blocks: [
-          { kind: "quote", text: ray.quote, attribution: `${ray.author}, ${ray.role}, ${ray.org}` },
+          { kind: "quote", text: ray.quote, attribution: quoteAttribution(ray) },
           {
             kind: "quote",
             text: canon.testimonials.review.body,

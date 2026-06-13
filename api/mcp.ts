@@ -4,10 +4,9 @@
 
 import { createMcpHandler } from "mcp-handler";
 import { z } from "zod";
-import generated from "../src/generated/canon.js";
-import { checkFit, parseAssetSize, type GeneratedCanon } from "../src/ask/answer.js";
+import g from "../src/generated/canon.js";
+import { checkFit, parseAssetSize } from "../src/ask/answer.js";
 
-const g = generated as unknown as GeneratedCanon;
 const c = g.canon;
 
 const handler = createMcpHandler(

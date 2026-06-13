@@ -26,7 +26,7 @@ export function pickVariant(accept: string | null): Variant {
     let q = 1;
     for (const p of params) {
       const [k, v] = p.trim().split("=");
-      if (k === "q" && v) q = Number.parseFloat(v) || 0;
+      if (k?.toLowerCase() === "q" && v) q = Number.parseFloat(v) || 0;
     }
     let variant: Variant | null = null;
     if (type === "text/markdown") variant = "markdown";

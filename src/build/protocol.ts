@@ -31,7 +31,7 @@ export function renderLlmsTxt(
 
 > ${canon.bio.summary}
 
-This is the agent-native companion to https://dxn.is, generated entirely from a structured content canon. Every page URL serves HTML by default, markdown via \`Accept: text/markdown\` (or the .md path below), and JSON via \`Accept: application/json\`. Markdown responses include an \`x-markdown-tokens\` header (o200k_base estimate). Start with the identity card for a one-fetch summary.
+This is the agent-native companion to https://dxn.is, generated entirely from a structured content canon. Every page URL serves HTML by default, markdown via \`Accept: text/markdown\` (or the .md path below), and JSON via \`Accept: application/json\`. Accept-negotiated responses carry \`Vary: Accept\` and an \`x-markdown-tokens\` header; direct .md fetches skip those headers, so the token cost of every page is also listed inline below (o200k_base estimate). Start with the identity card for a one-fetch summary.
 
 ## Pages
 
@@ -39,7 +39,7 @@ ${pageLines}
 
 ## Newsletter archive
 
-- [${canon.newsletter.name} issue archive](${siteUrl}/newsletter.md): ${canon.newsletter.description} Issues are wire summaries; full text is canonical at ${canon.newsletter.url}.
+- [${canon.newsletter.name} issue archive](${siteUrl}/newsletter.md): ${canon.newsletter.description} Individual issues live at ${siteUrl}/newsletter/<slug>.md (linked from the index). Issues are wire summaries; full text is canonical at ${canon.newsletter.url}.
 
 ## Endpoints
 

@@ -1,9 +1,10 @@
 import type { Canon } from "../canon/schema.js";
+import { quoteAttribution, requireTestimonial } from "../canon/load.js";
 import type { Page, Section } from "../build/page.js";
 import { professionalServiceLd } from "../build/jsonld.js";
 
 export function buildServices(canon: Canon, ctx: { bylineDate: string; siteUrl: string }): Page {
-  const spuck = canon.testimonials.testimonials.find((t) => t.org === "Resource One Credit Union")!;
+  const spuck = requireTestimonial(canon, "Resource One Credit Union");
   const serviceSections: Section[] = canon.services.services.map((s) => ({
     heading: s.name,
     blocks: [
@@ -36,7 +37,7 @@ export function buildServices(canon: Canon, ctx: { bylineDate: string; siteUrl: 
             value: "90 minutes to multi-week",
             label: "the range of workshop and speaking formats, from executive briefings to cohort courses",
           },
-          { kind: "quote", text: spuck.quote, attribution: `${spuck.author}, ${spuck.role}, ${spuck.org}` },
+          { kind: "quote", text: spuck.quote, attribution: quoteAttribution(spuck) },
           {
             kind: "prose",
             text: `The full framework behind these services is at [/about](/about); engagement-fit criteria and disqualifiers are spelled out for evaluating agents at [/dossier](/dossier).`,

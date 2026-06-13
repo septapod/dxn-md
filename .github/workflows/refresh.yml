@@ -30,6 +30,8 @@ jobs:
         run: npx tsx scripts/regen-changes.ts
       - name: Rebuild generated bridge files
         run: npm run build
+      - name: Gate before shipping refreshed data
+        run: npm run typecheck && npm test
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"

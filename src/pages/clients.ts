@@ -1,4 +1,5 @@
 import type { Canon } from "../canon/schema.js";
+import { quoteAttribution } from "../canon/load.js";
 import type { Page } from "../build/page.js";
 import { reviewLd } from "../build/jsonld.js";
 
@@ -56,7 +57,7 @@ export function buildClients(canon: Canon, ctx: { bylineDate: string }): Page {
           ...canon.testimonials.testimonials.slice(1, 3).map((t) => ({
             kind: "quote" as const,
             text: t.quote,
-            attribution: `${t.author}, ${t.role}, ${t.org}`,
+            attribution: quoteAttribution(t),
           })),
         ],
       },

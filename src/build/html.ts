@@ -1,4 +1,4 @@
-import type { Block, Page, Section } from "./page.js";
+import { jsonPath, mdPath, type Block, type Page, type Section } from "./page.js";
 
 export function escapeHtml(text: string): string {
   return text
@@ -28,15 +28,17 @@ function renderBlock(block: Block): string {
       return `<blockquote><p>${escapeHtml(block.text)}</p><cite>${escapeHtml(block.attribution)}</cite></blockquote>`;
     case "stat": {
       const source = block.source
-        ? ` <a class="source" href="${block.source.url}">${escapeHtml(block.source.title)}</a>`
+        ? ` <a class="source" href="${escapeHtml(block.source.url)}">${escapeHtml(block.source.title)}</a>`
         : "";
       return `<p class="stat"><strong>${escapeHtml(block.value)}</strong> — ${inline(block.label)}${source}</p>`;
     }
     case "links":
+      // URLs are attribute-escaped too: feed item links flow here, so a
+      // malformed or hostile RSS entry must not break out of the href.
       return `<ul class="links">${block.items
         .map(
           (i) =>
-            `<li><a href="${i.url}">${escapeHtml(i.label)}</a>${i.note ? ` — ${escapeHtml(i.note)}` : ""}</li>`,
+            `<li><a href="${escapeHtml(i.url)}">${escapeHtml(i.label)}</a>${i.note ? ` — ${escapeHtml(i.note)}` : ""}</li>`,
         )
         .join("")}</ul>`;
     case "qa":
@@ -76,7 +78,7 @@ summary{font-weight:600;cursor:pointer}
 footer.site{max-width:44rem;margin:0 auto;padding:1.5rem 1.25rem 3rem;border-top:1px solid var(--line);font-size:.8rem;color:var(--soft)}
 `.trim();
 
-const NAV: [string, string][] = [
+export const NAV: [string, string][] = [
   ["/", "Home"],
   ["/services", "Services"],
   ["/about", "About"],
@@ -102,7 +104,7 @@ export function renderHtml(
       `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','${opts.ga4Id}');</script>`
     : "";
   const nav = NAV.map(([href, label]) => `<a href="${href}">${label}</a>`).join("");
-  const mdHref = page.route === "/" ? "/index.md" : `${page.route}.md`;
+  const mdHref = mdPath(page.route);
 
   return `<!doctype html>
 <html lang="en">
@@ -126,7 +128,7 @@ ${ga}
 ${page.sections.map(renderSection).join("\n")}
 </main>
 <footer class="site">
-<p>Generated from the content canon (hash <code>${opts.canonHash}</code>). This page is also available as <a href="${mdHref}">markdown</a> (or send <code>Accept: text/markdown</code>) and <a href="${page.route === "/" ? "/index" : page.route}.json">JSON</a>. A site for agents and humans — see <a href="/agents">how it works</a> or <a href="/llms.txt">llms.txt</a>.</p>
+<p>Generated from the content canon (hash <code>${opts.canonHash}</code>). This page is also available as <a href="${mdHref}">markdown</a> (or send <code>Accept: text/markdown</code>) and <a href="${jsonPath(page.route)}">JSON</a>. A site for agents and humans — see <a href="/agents">how it works</a> or <a href="/llms.txt">llms.txt</a>.</p>
 <p>© ${page.byline_date.slice(0, 4)} Dixon Strategic Labs LLC · <a href="https://dxn.is">dxn.is</a> is the human-first companion site.</p>
 </footer>
 </body>

@@ -1,9 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { answerQuestion, parseAssetSize } from "../src/ask/answer.js";
-import generated from "../src/generated/canon.js";
-import type { GeneratedCanon } from "../src/ask/answer.js";
-
-const g = generated as unknown as GeneratedCanon;
+import g from "../src/generated/canon.js";
 
 describe("parseAssetSize", () => {
   it("parses common forms", () => {

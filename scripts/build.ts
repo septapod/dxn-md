@@ -7,6 +7,7 @@ import { join } from "node:path";
 import { loadCanon } from "../src/canon/load.js";
 import { GA4_MEASUREMENT_ID, SITE_URL } from "../src/config.js";
 import { emitPage, writeFile, type EmitOptions } from "../src/build/emit.js";
+import { NAV } from "../src/build/html.js";
 import { loadFeedSnapshot } from "../src/build/feed.js";
 import { lintPages } from "../src/build/lint-geo.js";
 import { mdPath, type Page } from "../src/build/page.js";
@@ -67,6 +68,14 @@ export function build(root = process.cwd()): { pages: Page[]; manifest: TokenMan
     buildObservatory(canon, observatory, ctx),
   ];
 
+  // Gate 0: every hardcoded nav route must exist in the page set, so a
+  // renamed or removed page cannot leave a dead anchor on every page.
+  const routes = new Set(pages.map((p) => p.route));
+  const deadNav = NAV.map(([href]) => href).filter((href) => !routes.has(href));
+  if (deadNav.length) {
+    throw new Error(`nav gate: NAV routes missing from the page set: ${deadNav.join(", ")}`);
+  }
+
   // Gate 1: GEO lint (origin R16/R19) — fail loudly, naming page and rule.
   const failures = lintPages(pages);
   if (failures.length) {
@@ -113,9 +122,11 @@ export function build(root = process.cwd()): { pages: Page[]; manifest: TokenMan
     latest_issue: latest ? { title: latest.title, link: latest.link, date: latest.date } : null,
     canon,
   };
+  // Typed declaration (not a cast): if the emitted shape ever drifts from
+  // GeneratedCanon, typecheck fails here instead of consumers failing silently.
   writeFileSync(
     join(generated, "canon.ts"),
-    `${banner}const generated = ${JSON.stringify(canonModule, null, 2)};\nexport default generated;\n`,
+    `${banner}import type { GeneratedCanon } from "../ask/answer.js";\n\nconst generated: GeneratedCanon = ${JSON.stringify(canonModule, null, 2)};\nexport default generated;\n`,
   );
 
   return { pages, manifest };

@@ -20,9 +20,11 @@ function areasFor(files: string[]): string[] {
   return [...areas].sort();
 }
 
+// Single pass: --name-only emits each commit's header line followed by its
+// changed files, so we avoid one `git show` subprocess per commit.
 const log = execFileSync(
   "git",
-  ["log", "--format=%H|%as|%s", "--", "content/", "data/feed-snapshot.xml"],
+  ["log", "--name-only", "--format=%x01%as|%s", "--", "content/", "data/feed-snapshot.xml"],
   { encoding: "utf8" },
 ).trim();
 
@@ -32,17 +34,12 @@ const existing = JSON.parse(readFileSync("data/changes.json", "utf8")) as {
 
 const entries: Entry[] = [];
 if (log) {
-  for (const line of log.split("\n")) {
-    const [hash, date, ...rest] = line.split("|");
-    if (!hash || !date) continue;
-    const files = execFileSync(
-      "git",
-      ["show", "--name-only", "--format=", hash, "--", "content/", "data/feed-snapshot.xml"],
-      { encoding: "utf8" },
-    )
-      .trim()
-      .split("\n")
-      .filter(Boolean);
+  for (const chunk of log.split("").filter((c) => c.trim())) {
+    const lines = chunk.trim().split("\n");
+    const header = lines[0] ?? "";
+    const [date, ...rest] = header.split("|");
+    if (!date) continue;
+    const files = lines.slice(1).filter(Boolean);
     entries.push({ date, summary: rest.join("|"), areas: areasFor(files) });
   }
 }

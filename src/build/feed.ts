@@ -22,6 +22,9 @@ function slugFromLink(link: string): string | null {
 }
 
 function toIsoDate(pubDate: string): string | null {
+  // UTC date, deliberately: Beehiiv emits +0000 pubDates today, and a fixed
+  // UTC convention keeps builds deterministic. If the feed ever switches to a
+  // local-offset zone, dates here may sit one day off the publisher-local date.
   const d = new Date(pubDate);
   return Number.isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
 }
