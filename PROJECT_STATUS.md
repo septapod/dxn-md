@@ -7,7 +7,7 @@ Agent-optimized companion site to dxn.is, served at dxn.md: every surface genera
 - ~2026-07-19 — run `docs/audit-37-day.md` (citation audit)
 
 ## Current state
-**Phase: built, deploying.** Site builds green (29 pages, 36 tests passing, typecheck clean). Build gates working (GEO lint, 4KB card cap, determinism in CI). Pushing to GitHub and deploying to Vercel next, then code review.
+**Phase: live.** Deployed at https://dxn-md.vercel.app (production alias). GitHub repo `septapod/dxn-md` (private), connected to Vercel so pushes auto-deploy. CI green (typecheck, 36 tests, build gates, determinism check, generated-file freshness). Code review ran (7 finder angles, ~30 candidates); confirmed findings fixed and verified live, including two HTML-injection vectors and an RFC Accept-header bug. Smoke tests passed against production: content negotiation with all headers, llms.txt, /api/ask, /mcp (all 5 tools), feeds, .well-known.
 
 ## Decisions made
 - Custom TypeScript static generator, no framework (markdown is the primary artifact; zero client JS)
@@ -31,6 +31,8 @@ Agent-optimized companion site to dxn.is, served at dxn.md: every surface genera
 - `content/canon/` — the facts layer (the only thing to hand-edit)
 
 ## Next actions (ordered)
-1. GitHub repo + Vercel deploy + live smoke tests
-2. Code review pass, fix findings
-3. Brent: DNS, GA4, review `docs/setup-brent.md`
+1. Brent: connect dxn.md DNS, set `SITE_URL=https://dxn.md`, redeploy (see `docs/setup-brent.md`)
+2. Brent: GA4 property + `GA4_MEASUREMENT_ID` env var
+3. Brent: decide repo visibility (currently private; site footer links to it)
+4. ~2026-07-19: run `docs/audit-37-day.md`
+5. Later: dxn.is-side sync bot, observatory log-drain automation, glossary (deferred in plan)
