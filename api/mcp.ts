@@ -101,7 +101,10 @@ const handler = createMcpHandler(
     );
   },
   {},
-  { basePath: "/api" },
+  // The advertised endpoint is /mcp (vercel.json rewrite). Functions receive
+  // the ORIGINAL request path on rewrites, so the handler must match "/mcp",
+  // not "/api/mcp" — basePath stays empty.
+  { basePath: "" },
 );
 
 export { handler as GET, handler as POST, handler as DELETE };
