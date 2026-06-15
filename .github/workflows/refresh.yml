@@ -12,6 +12,11 @@ on:
 permissions:
   contents: write
 
+# Canonical URL for the build's absolute links and the IndexNow ping. Must match
+# the SITE_URL set in Vercel; the GitHub environment has no Vercel env vars.
+env:
+  SITE_URL: https://dxn.md
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
