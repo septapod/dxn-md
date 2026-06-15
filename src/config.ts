@@ -7,3 +7,7 @@ export const GA4_MEASUREMENT_ID = process.env.GA4_MEASUREMENT_ID ?? "";
 
 export const SITE_NAME = "Dixon Strategic Labs";
 export const TOKEN_ENCODING = "o200k_base";
+
+// IndexNow key. Public by design: it is hosted at /<key>.txt so Bing can verify
+// that pings come from someone who controls the site. Not a secret.
+export const INDEXNOW_KEY = "58868f679e6fa96737ef49858fdfda35";

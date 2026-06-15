@@ -12,7 +12,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "refresh": "node scripts/refresh-rss.mjs",
-    "changes": "tsx scripts/regen-changes.ts"
+    "changes": "tsx scripts/regen-changes.ts",
+    "ping": "node scripts/ping-indexnow.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.26.0",

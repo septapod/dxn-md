@@ -5,7 +5,7 @@
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { loadCanon } from "../src/canon/load.js";
-import { GA4_MEASUREMENT_ID, SITE_URL } from "../src/config.js";
+import { GA4_MEASUREMENT_ID, INDEXNOW_KEY, SITE_URL } from "../src/config.js";
 import { emitPage, writeFile, type EmitOptions } from "../src/build/emit.js";
 import { NAV } from "../src/build/html.js";
 import { loadFeedSnapshot } from "../src/build/feed.js";
@@ -103,6 +103,8 @@ export function build(root = process.cwd()): { pages: Page[]; manifest: TokenMan
   writeFile(dist, "/.well-known/ai-agent.json", renderAiAgentJson(canon, SITE_URL));
   writeFile(dist, "/.well-known/agent-card.json", renderAgentCardJson(canon, SITE_URL));
   writeFile(dist, "/token-manifest.json", JSON.stringify(manifest, null, 2));
+  // IndexNow ownership key: lets the site ping Bing to crawl on demand.
+  writeFile(dist, `/${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
 
   // src/generated is the build-time data bridge for middleware.ts and api/*.
   // It is tracked in git and freshness-gated in CI (git diff --exit-code after

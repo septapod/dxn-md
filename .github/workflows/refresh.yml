@@ -39,3 +39,5 @@ jobs:
           git add data/ src/generated/
           git diff --staged --quiet || git commit -m "chore(data): weekly feed snapshot and change log refresh"
           git push
+      - name: Ping IndexNow so Bing crawls the refreshed URLs
+        run: node scripts/ping-indexnow.mjs
