@@ -1,6 +1,13 @@
 {
-  "updated": "2026-06-12",
+  "updated": "2026-06-15",
   "entries": [
+    {
+      "date": "2026-06-15",
+      "summary": "chore(data): weekly feed snapshot and change log refresh",
+      "areas": [
+        "newsletter-feed"
+      ]
+    },
     {
       "date": "2026-06-12",
       "summary": "feat(build): tri-variant generator, protocol surfaces, GEO and card gates",
