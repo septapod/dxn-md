@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "An AI is negotiating repayment plans over the phone.",
-    "link": "https://ai4fis.beehiiv.com/p/negotiating-repayment-plans",
-    "date": "2026-06-09"
+    "title": "650 institutions let AI triage financial-crime. Should they?",
+    "link": "https://ai4fis.beehiiv.com/p/650-institutions-let-ai-triage-financial-crime-should-they",
+    "date": "2026-06-17"
   },
   "canon": {
     "bio": {

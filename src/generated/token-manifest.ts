@@ -36,9 +36,14 @@ export default {
     "hash": "b92ee1fc"
   },
   "/newsletter.md": {
-    "tokens": 1335,
-    "bytes": 5163,
-    "hash": "67735bf2"
+    "tokens": 1358,
+    "bytes": 5235,
+    "hash": "b13b2015"
+  },
+  "/newsletter/650-institutions-let-ai-triage-financial-crime-should-they.md": {
+    "tokens": 357,
+    "bytes": 1272,
+    "hash": "354a0957"
   },
   "/newsletter/negotiating-repayment-plans.md": {
     "tokens": 311,
@@ -134,11 +139,6 @@ export default {
     "tokens": 320,
     "bytes": 1089,
     "hash": "f5d4baac"
-  },
-  "/newsletter/ai-agents-are-building-their-own-social-networks.md": {
-    "tokens": 272,
-    "bytes": 934,
-    "hash": "7f035053"
   },
   "/observatory.md": {
     "tokens": 281,
