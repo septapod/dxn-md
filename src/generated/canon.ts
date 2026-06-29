@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "650 institutions let AI triage financial-crime. Should they?",
-    "link": "https://ai4fis.beehiiv.com/p/650-institutions-let-ai-triage-financial-crime-should-they",
-    "date": "2026-06-17"
+    "title": "Treat your AI agent like an inside threat",
+    "link": "https://ai4fis.beehiiv.com/p/treat-an-agent-like-an-inside-threat",
+    "date": "2026-06-24"
   },
   "canon": {
     "bio": {

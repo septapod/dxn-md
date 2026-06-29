@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "053e5624"
+    "hash": "e04a82b7"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "c5e63788"
+    "hash": "460bce6c"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "da24f759"
+    "hash": "6344e204"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "4a0254fb"
+    "hash": "3f5218f4"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "b29e28b6"
+    "hash": "0e47782d"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "ba8e5a41"
+    "hash": "03e24f15"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "b92ee1fc"
+    "hash": "ef4b4464"
   },
   "/newsletter.md": {
-    "tokens": 1358,
+    "tokens": 1357,
     "bytes": 5235,
-    "hash": "b13b2015"
+    "hash": "fcee201e"
+  },
+  "/newsletter/treat-an-agent-like-an-inside-threat.md": {
+    "tokens": 335,
+    "bytes": 1203,
+    "hash": "685f2bd8"
   },
   "/newsletter/650-institutions-let-ai-triage-financial-crime-should-they.md": {
     "tokens": 357,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1051,
     "hash": "3e154ec2"
   },
-  "/newsletter/half-of-financial-institutions-are-shifting-budgets-to-agents.md": {
-    "tokens": 320,
-    "bytes": 1089,
-    "hash": "f5d4baac"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "77b57089"
+    "hash": "7f6e3d69"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
