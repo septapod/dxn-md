@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "e04a82b7"
+    "hash": "1d5ed780"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "460bce6c"
+    "hash": "3bcca4ff"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "6344e204"
+    "hash": "34fef464"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "3f5218f4"
+    "hash": "9dec689f"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "0e47782d"
+    "hash": "461b8c98"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "03e24f15"
+    "hash": "a682d3c4"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "ef4b4464"
+    "hash": "984c45cc"
   },
   "/newsletter.md": {
-    "tokens": 1357,
-    "bytes": 5235,
-    "hash": "fcee201e"
+    "tokens": 1363,
+    "bytes": 5254,
+    "hash": "2bdf0383"
+  },
+  "/newsletter/us-gated-its-ai-china-gave-one-away.md": {
+    "tokens": 343,
+    "bytes": 1190,
+    "hash": "0bde86e6"
   },
   "/newsletter/treat-an-agent-like-an-inside-threat.md": {
     "tokens": 335,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1042,
     "hash": "e1ff190a"
   },
-  "/newsletter/deploy-agents-with-a-strategy.md": {
-    "tokens": 296,
-    "bytes": 1051,
-    "hash": "3e154ec2"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "7f6e3d69"
+    "hash": "b2eca211"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
