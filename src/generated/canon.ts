@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "The U.S. gated its newest AI models. A Chinese lab gave one away.",
-    "link": "https://ai4fis.beehiiv.com/p/us-gated-its-ai-china-gave-one-away",
-    "date": "2026-06-30"
+    "title": "The ransomware attack that ran itself.",
+    "link": "https://ai4fis.beehiiv.com/p/ai-ransomware-attack",
+    "date": "2026-07-08"
   },
   "canon": {
     "bio": {

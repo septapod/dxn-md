@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "1d5ed780"
+    "hash": "8a489b06"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "3bcca4ff"
+    "hash": "1fcd7596"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "34fef464"
+    "hash": "77c3c724"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "9dec689f"
+    "hash": "252f98b5"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "461b8c98"
+    "hash": "cbc3e22c"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "a682d3c4"
+    "hash": "9b99846e"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "984c45cc"
+    "hash": "5546e8be"
   },
   "/newsletter.md": {
-    "tokens": 1363,
-    "bytes": 5254,
-    "hash": "2bdf0383"
+    "tokens": 1346,
+    "bytes": 5157,
+    "hash": "1329f353"
+  },
+  "/newsletter/ai-ransomware-attack.md": {
+    "tokens": 292,
+    "bytes": 1012,
+    "hash": "d088dbd5"
   },
   "/newsletter/us-gated-its-ai-china-gave-one-away.md": {
     "tokens": 343,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1027,
     "hash": "44dee2c4"
   },
-  "/newsletter/cu-ai-infrastructure.md": {
-    "tokens": 288,
-    "bytes": 1042,
-    "hash": "e1ff190a"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "b2eca211"
+    "hash": "9ce3daf8"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
