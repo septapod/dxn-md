@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "8a489b06"
+    "hash": "82913d61"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "1fcd7596"
+    "hash": "93bcb2c3"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "77c3c724"
+    "hash": "22468b9c"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "252f98b5"
+    "hash": "74b8dfc9"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "cbc3e22c"
+    "hash": "04862831"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "9b99846e"
+    "hash": "b7756e49"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "5546e8be"
+    "hash": "e8cc0b0f"
   },
   "/newsletter.md": {
-    "tokens": 1346,
-    "bytes": 5157,
-    "hash": "1329f353"
+    "tokens": 1353,
+    "bytes": 5195,
+    "hash": "17c1e110"
+  },
+  "/newsletter/agent-marketplace.md": {
+    "tokens": 298,
+    "bytes": 1088,
+    "hash": "53e47069"
   },
   "/newsletter/ai-ransomware-attack.md": {
     "tokens": 292,
@@ -135,14 +140,9 @@ export default {
     "bytes": 977,
     "hash": "f962d160"
   },
-  "/newsletter/mastercard-and-google-open-sourced-how-ai-agents-pay.md": {
-    "tokens": 293,
-    "bytes": 1027,
-    "hash": "44dee2c4"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "9ce3daf8"
+    "hash": "319bcbcd"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;

@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "The ransomware attack that ran itself.",
-    "link": "https://ai4fis.beehiiv.com/p/ai-ransomware-attack",
-    "date": "2026-07-08"
+    "title": "750+ community FIs are getting an AI agent marketplace",
+    "link": "https://ai4fis.beehiiv.com/p/agent-marketplace",
+    "date": "2026-07-16"
   },
   "canon": {
     "bio": {
