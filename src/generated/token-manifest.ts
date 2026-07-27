@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "82913d61"
+    "hash": "1ec2f2e8"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "93bcb2c3"
+    "hash": "b8eb8e0e"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "22468b9c"
+    "hash": "8b3c0aaa"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "74b8dfc9"
+    "hash": "321de90f"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "04862831"
+    "hash": "e10ad373"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "b7756e49"
+    "hash": "1dc9995a"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "e8cc0b0f"
+    "hash": "83770692"
   },
   "/newsletter.md": {
-    "tokens": 1353,
-    "bytes": 5195,
-    "hash": "17c1e110"
+    "tokens": 1375,
+    "bytes": 5278,
+    "hash": "7e636415"
+  },
+  "/newsletter/two-banks-and-escape.md": {
+    "tokens": 324,
+    "bytes": 1149,
+    "hash": "cbe63f3b"
   },
   "/newsletter/agent-marketplace.md": {
     "tokens": 298,
@@ -135,14 +140,9 @@ export default {
     "bytes": 969,
     "hash": "79e2d35a"
   },
-  "/newsletter/59-hours-before-anyone-noticed.md": {
-    "tokens": 284,
-    "bytes": 977,
-    "hash": "f962d160"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "319bcbcd"
+    "hash": "b0887c2a"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
