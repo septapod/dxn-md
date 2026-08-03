@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "1ec2f2e8"
+    "hash": "db706072"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "b8eb8e0e"
+    "hash": "f415a0ea"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "8b3c0aaa"
+    "hash": "079fc314"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "321de90f"
+    "hash": "a97bd98d"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "e10ad373"
+    "hash": "443163cf"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "1dc9995a"
+    "hash": "214f2fb4"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "83770692"
+    "hash": "ab722ad1"
   },
   "/newsletter.md": {
-    "tokens": 1375,
-    "bytes": 5278,
-    "hash": "7e636415"
+    "tokens": 1388,
+    "bytes": 5333,
+    "hash": "055b55d6"
+  },
+  "/newsletter/the-80-agent-chain-behind-one-loan.md": {
+    "tokens": 314,
+    "bytes": 1117,
+    "hash": "0451c59e"
   },
   "/newsletter/two-banks-and-escape.md": {
     "tokens": 324,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1024,
     "hash": "8e38a872"
   },
-  "/newsletter/who-authorized-that-agent.md": {
-    "tokens": 281,
-    "bytes": 969,
-    "hash": "79e2d35a"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "b0887c2a"
+    "hash": "70baafbe"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;

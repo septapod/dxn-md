@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "Two banks put AI agents to work. OpenAI&#39;s agents broke out and broke in.",
-    "link": "https://ai4fis.beehiiv.com/p/two-banks-and-escape",
-    "date": "2026-07-23"
+    "title": "The 80-agent chain behind one loan",
+    "link": "https://ai4fis.beehiiv.com/p/the-80-agent-chain-behind-one-loan",
+    "date": "2026-07-30"
   },
   "canon": {
     "bio": {
