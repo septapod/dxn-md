@@ -1,8 +1,8 @@
-node_modules/
-dist/
-.vercel/
-.env
-.env.*
-*.log
-.DS_Store
-.vercel
+# Internal project status and handoff artifacts never belong in GitHub.
+**/PROJECT_STATUS.md
+**/PROJECT-STATUS.md
+**/project_status.md
+**/project-status.md
+**/*[Hh][Aa][Nn][Dd][Oo][Ff][Ff]*.md
+**/*[Hh][Aa][Nn][Dd][Oo][Ff][Ff]*.txt
+**/*[Hh][Aa][Nn][Dd][Oo][Ff][Ff]*.png
