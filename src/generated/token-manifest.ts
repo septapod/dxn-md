@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "db706072"
+    "hash": "b93e3c21"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "f415a0ea"
+    "hash": "c8146a0a"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "079fc314"
+    "hash": "18cd091c"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "a97bd98d"
+    "hash": "3b11decd"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "443163cf"
+    "hash": "c674b4b8"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "214f2fb4"
+    "hash": "2e2c64ce"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "ab722ad1"
+    "hash": "d2af9dbe"
   },
   "/newsletter.md": {
-    "tokens": 1388,
-    "bytes": 5333,
-    "hash": "055b55d6"
+    "tokens": 1398,
+    "bytes": 5383,
+    "hash": "60a56588"
+  },
+  "/newsletter/credit-union-security-cases-100-to-10.md": {
+    "tokens": 320,
+    "bytes": 1103,
+    "hash": "0f01bb3b"
   },
   "/newsletter/the-80-agent-chain-behind-one-loan.md": {
     "tokens": 314,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1238,
     "hash": "ead1278c"
   },
-  "/newsletter/the-internet-now-with-7851-more-agents.md": {
-    "tokens": 303,
-    "bytes": 1024,
-    "hash": "8e38a872"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "70baafbe"
+    "hash": "f75d353e"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;

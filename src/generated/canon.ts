@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "The 80-agent chain behind one loan",
-    "link": "https://ai4fis.beehiiv.com/p/the-80-agent-chain-behind-one-loan",
-    "date": "2026-07-30"
+    "title": "Critical cyber repairs in 75% less time",
+    "link": "https://ai4fis.beehiiv.com/p/credit-union-security-cases-100-to-10",
+    "date": "2026-08-06"
   },
   "canon": {
     "bio": {
