@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "b93e3c21"
+    "hash": "db5e9907"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "c8146a0a"
+    "hash": "5554bcf3"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "18cd091c"
+    "hash": "cb003812"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "3b11decd"
+    "hash": "bf0fd3b0"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "c674b4b8"
+    "hash": "a2970deb"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "2e2c64ce"
+    "hash": "7ee38b57"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "d2af9dbe"
+    "hash": "9e489d82"
   },
   "/newsletter.md": {
-    "tokens": 1398,
-    "bytes": 5383,
-    "hash": "60a56588"
+    "tokens": 1386,
+    "bytes": 5304,
+    "hash": "e665b123"
+  },
+  "/newsletter/moving-money-at-penfed.md": {
+    "tokens": 302,
+    "bytes": 1052,
+    "hash": "7154c05c"
   },
   "/newsletter/credit-union-security-cases-100-to-10.md": {
     "tokens": 320,
@@ -135,14 +140,9 @@ export default {
     "bytes": 845,
     "hash": "949ac670"
   },
-  "/newsletter/the-org-design-question-every-credit-union-will-face-this-year.md": {
-    "tokens": 336,
-    "bytes": 1238,
-    "hash": "ead1278c"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "f75d353e"
+    "hash": "76250ed0"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
