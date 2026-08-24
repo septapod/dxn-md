@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "PenFed&#39;s new AI agent will move members&#39; money",
-    "link": "https://ai4fis.beehiiv.com/p/moving-money-at-penfed",
-    "date": "2026-08-14"
+    "title": "Who’s choosing your AI models?",
+    "link": "https://ai4fis.beehiiv.com/p/whos-choosing",
+    "date": "2026-08-21"
   },
   "canon": {
     "bio": {

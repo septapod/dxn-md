@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "db5e9907"
+    "hash": "7352e9e3"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "5554bcf3"
+    "hash": "e7f60de3"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "cb003812"
+    "hash": "3590bfd6"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "bf0fd3b0"
+    "hash": "01408e6e"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "a2970deb"
+    "hash": "121ae93d"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "7ee38b57"
+    "hash": "cab1acd9"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "9e489d82"
+    "hash": "8ac32336"
   },
   "/newsletter.md": {
-    "tokens": 1386,
-    "bytes": 5304,
-    "hash": "e665b123"
+    "tokens": 1398,
+    "bytes": 5359,
+    "hash": "315ceb1a"
+  },
+  "/newsletter/whos-choosing.md": {
+    "tokens": 285,
+    "bytes": 977,
+    "hash": "0addeefe"
   },
   "/newsletter/moving-money-at-penfed.md": {
     "tokens": 302,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1210,
     "hash": "7aa4c26f"
   },
-  "/newsletter/claude-mythos-report.md": {
-    "tokens": 258,
-    "bytes": 845,
-    "hash": "949ac670"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "76250ed0"
+    "hash": "a64d716c"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
