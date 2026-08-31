@@ -3,42 +3,42 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "7352e9e3"
+    "hash": "7aaaa29b"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "e7f60de3"
+    "hash": "58230aa7"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "3590bfd6"
+    "hash": "f820dc75"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "01408e6e"
+    "hash": "bd898bf3"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "121ae93d"
+    "hash": "b16a854c"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "cab1acd9"
+    "hash": "e266103d"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "8ac32336"
+    "hash": "4f1817ea"
   },
   "/newsletter.md": {
     "tokens": 1398,
     "bytes": 5359,
-    "hash": "315ceb1a"
+    "hash": "8584d7ec"
   },
   "/newsletter/whos-choosing.md": {
     "tokens": 285,
@@ -143,6 +143,6 @@ export default {
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "a64d716c"
+    "hash": "c89de207"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
