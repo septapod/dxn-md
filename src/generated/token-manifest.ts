@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "7aaaa29b"
+    "hash": "c084b0dc"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "58230aa7"
+    "hash": "6f9955dd"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "f820dc75"
+    "hash": "ed217f86"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "bd898bf3"
+    "hash": "40371c6b"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "b16a854c"
+    "hash": "d686f5fd"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "e266103d"
+    "hash": "9e337539"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "4f1817ea"
+    "hash": "cdaaa397"
   },
   "/newsletter.md": {
-    "tokens": 1398,
-    "bytes": 5359,
-    "hash": "8584d7ec"
+    "tokens": 1389,
+    "bytes": 5324,
+    "hash": "3895e831"
+  },
+  "/newsletter/blends-50k-mortgage-agent.md": {
+    "tokens": 312,
+    "bytes": 1052,
+    "hash": "299ca01f"
   },
   "/newsletter/whos-choosing.md": {
     "tokens": 285,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1051,
     "hash": "7c09fc76"
   },
-  "/newsletter/personal-cfo.md": {
-    "tokens": 341,
-    "bytes": 1210,
-    "hash": "7aa4c26f"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "c89de207"
+    "hash": "e2edfaa7"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;

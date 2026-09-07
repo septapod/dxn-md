@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "Who’s choosing your AI models?",
-    "link": "https://ai4fis.beehiiv.com/p/whos-choosing",
-    "date": "2026-08-21"
+    "title": "Blend&#39;s mortgage agent reaches 50,000 loans",
+    "link": "https://ai4fis.beehiiv.com/p/blends-50k-mortgage-agent",
+    "date": "2026-09-03"
   },
   "canon": {
     "bio": {
