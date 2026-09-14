@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "c084b0dc"
+    "hash": "8cc17d1d"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "6f9955dd"
+    "hash": "edebaf44"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "ed217f86"
+    "hash": "f665d7ee"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "40371c6b"
+    "hash": "951aacc0"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "d686f5fd"
+    "hash": "366a360a"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "9e337539"
+    "hash": "b0afebce"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "cdaaa397"
+    "hash": "108c63b9"
   },
   "/newsletter.md": {
-    "tokens": 1389,
-    "bytes": 5324,
-    "hash": "3895e831"
+    "tokens": 1393,
+    "bytes": 5362,
+    "hash": "fe74148e"
+  },
+  "/newsletter/identity-theft-swarm.md": {
+    "tokens": 307,
+    "bytes": 1093,
+    "hash": "d0144a0f"
   },
   "/newsletter/blends-50k-mortgage-agent.md": {
     "tokens": 312,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1152,
     "hash": "f6a9da3c"
   },
-  "/newsletter/an-account-for-every-agent.md": {
-    "tokens": 305,
-    "bytes": 1051,
-    "hash": "7c09fc76"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "e2edfaa7"
+    "hash": "307694ba"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
