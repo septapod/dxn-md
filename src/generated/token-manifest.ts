@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "8cc17d1d"
+    "hash": "9fe48a2c"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "edebaf44"
+    "hash": "997c4baa"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "f665d7ee"
+    "hash": "6822821b"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "951aacc0"
+    "hash": "2e70ee7d"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "366a360a"
+    "hash": "7a81a2c5"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "b0afebce"
+    "hash": "a5d3c47a"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "108c63b9"
+    "hash": "123ca73a"
   },
   "/newsletter.md": {
-    "tokens": 1393,
-    "bytes": 5362,
-    "hash": "fe74148e"
+    "tokens": 1396,
+    "bytes": 5372,
+    "hash": "2ee92090"
+  },
+  "/newsletter/why-ai-builders-say-it-might-kill-us.md": {
+    "tokens": 313,
+    "bytes": 1081,
+    "hash": "3f20f2bb"
   },
   "/newsletter/identity-theft-swarm.md": {
     "tokens": 307,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1129,
     "hash": "0d87e652"
   },
-  "/newsletter/doomsday-dont-panic.md": {
-    "tokens": 322,
-    "bytes": 1152,
-    "hash": "f6a9da3c"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "307694ba"
+    "hash": "58ec8bf7"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
