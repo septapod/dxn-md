@@ -3,42 +3,42 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "9fe48a2c"
+    "hash": "efc98aa2"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "997c4baa"
+    "hash": "4d24d12d"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "6822821b"
+    "hash": "f162e69e"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "2e70ee7d"
+    "hash": "c73363e2"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "7a81a2c5"
+    "hash": "bda7ec90"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "a5d3c47a"
+    "hash": "3249c7c3"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "123ca73a"
+    "hash": "4ccfbbdd"
   },
   "/newsletter.md": {
     "tokens": 1396,
     "bytes": 5372,
-    "hash": "2ee92090"
+    "hash": "00bd6a7e"
   },
   "/newsletter/why-ai-builders-say-it-might-kill-us.md": {
     "tokens": 313,
@@ -143,6 +143,6 @@ export default {
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "58ec8bf7"
+    "hash": "5aef6057"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
