@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-28",
   "entries": [
+    {
+      "date": "2026-09-28",
+      "summary": "chore(data): weekly feed snapshot and change log refresh",
+      "areas": [
+        "newsletter-feed"
+      ]
+    },
     {
       "date": "2026-09-21",
       "summary": "chore(data): weekly feed snapshot and change log refresh",

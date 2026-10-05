@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "Why do the people building AI keep saying it might kill us?",
-    "link": "https://ai4fis.beehiiv.com/p/why-ai-builders-say-it-might-kill-us",
-    "date": "2026-09-18"
+    "title": "Does your AI agent work for you or its maker?",
+    "link": "https://ai4fis.beehiiv.com/p/whos-the-product-here",
+    "date": "2026-09-29"
   },
   "canon": {
     "bio": {

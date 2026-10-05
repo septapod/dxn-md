@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "efc98aa2"
+    "hash": "47b8935a"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "4d24d12d"
+    "hash": "0847edff"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "f162e69e"
+    "hash": "1a745ad1"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "c73363e2"
+    "hash": "cd4f3300"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "bda7ec90"
+    "hash": "0f9b5e4c"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "3249c7c3"
+    "hash": "fa2fe56f"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "4ccfbbdd"
+    "hash": "16685d78"
   },
   "/newsletter.md": {
-    "tokens": 1396,
-    "bytes": 5372,
-    "hash": "00bd6a7e"
+    "tokens": 1394,
+    "bytes": 5334,
+    "hash": "c405b916"
+  },
+  "/newsletter/whos-the-product-here.md": {
+    "tokens": 283,
+    "bytes": 943,
+    "hash": "7da4fccc"
   },
   "/newsletter/why-ai-builders-say-it-might-kill-us.md": {
     "tokens": 313,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1149,
     "hash": "c209ad4c"
   },
-  "/newsletter/stripe-rewired-the-credit-card.md": {
-    "tokens": 310,
-    "bytes": 1129,
-    "hash": "0d87e652"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "5aef6057"
+    "hash": "6aff6804"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
