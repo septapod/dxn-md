@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "26ff6c84"
+    "hash": "7bcd6451"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "04428640"
+    "hash": "7dcea63f"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "cc63c76b"
+    "hash": "87e98232"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "a685bf5d"
+    "hash": "b4d4955c"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "0723b7b4"
+    "hash": "8fc2c3da"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "15afca54"
+    "hash": "662a9f33"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "24f81e0c"
+    "hash": "7b65bffe"
   },
   "/newsletter.md": {
-    "tokens": 1394,
-    "bytes": 5334,
-    "hash": "91195b33"
+    "tokens": 1397,
+    "bytes": 5329,
+    "hash": "204d8820"
+  },
+  "/newsletter/navyfcu-bots-scam-scammers.md": {
+    "tokens": 335,
+    "bytes": 1174,
+    "hash": "e209bb99"
   },
   "/newsletter/whos-the-product-here.md": {
     "tokens": 283,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1160,
     "hash": "a52bef86"
   },
-  "/newsletter/anthropic-financial-services-briefing.md": {
-    "tokens": 314,
-    "bytes": 1149,
-    "hash": "c209ad4c"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "8b67a71f"
+    "hash": "8c165713"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
