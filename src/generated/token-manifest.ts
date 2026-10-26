@@ -3,42 +3,42 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "7bcd6451"
+    "hash": "efb8e55b"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "7dcea63f"
+    "hash": "be006fae"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "87e98232"
+    "hash": "49276142"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "b4d4955c"
+    "hash": "dca71a0d"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "8fc2c3da"
+    "hash": "3a530c0f"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "662a9f33"
+    "hash": "6013c437"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "7b65bffe"
+    "hash": "0d3f88fd"
   },
   "/newsletter.md": {
     "tokens": 1397,
     "bytes": 5329,
-    "hash": "204d8820"
+    "hash": "d7751af7"
   },
   "/newsletter/navyfcu-bots-scam-scammers.md": {
     "tokens": 335,
@@ -143,6 +143,6 @@ export default {
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "8c165713"
+    "hash": "86bfbd81"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
