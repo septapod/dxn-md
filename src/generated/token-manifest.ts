@@ -3,42 +3,47 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "efb8e55b"
+    "hash": "bcdd3c16"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "be006fae"
+    "hash": "573efc6d"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "49276142"
+    "hash": "0bfb319f"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "dca71a0d"
+    "hash": "7c60511a"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "3a530c0f"
+    "hash": "f1d374d3"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "6013c437"
+    "hash": "d9bc4cd4"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "0d3f88fd"
+    "hash": "b5b06011"
   },
   "/newsletter.md": {
-    "tokens": 1397,
-    "bytes": 5329,
-    "hash": "d7751af7"
+    "tokens": 1396,
+    "bytes": 5321,
+    "hash": "247805b1"
+  },
+  "/newsletter/big-banks-lock-out-customer-ai.md": {
+    "tokens": 273,
+    "bytes": 936,
+    "hash": "09669cc9"
   },
   "/newsletter/navyfcu-bots-scam-scammers.md": {
     "tokens": 335,
@@ -135,14 +140,9 @@ export default {
     "bytes": 1013,
     "hash": "8e5d1a9d"
   },
-  "/newsletter/the-model-is-not-the-product.md": {
-    "tokens": 318,
-    "bytes": 1160,
-    "hash": "a52bef86"
-  },
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "86bfbd81"
+    "hash": "58487780"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;

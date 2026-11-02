@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "26bc6988cfa8",
   "latest_issue": {
-    "title": "Navy Federal bots pose as scam victims",
-    "link": "https://ai4fis.beehiiv.com/p/navyfcu-bots-scam-scammers",
-    "date": "2026-10-17"
+    "title": "Big banks lock out customers’ AI",
+    "link": "https://ai4fis.beehiiv.com/p/big-banks-lock-out-customer-ai",
+    "date": "2026-10-27"
   },
   "canon": {
     "bio": {
