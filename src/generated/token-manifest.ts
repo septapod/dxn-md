@@ -3,42 +3,42 @@ export default {
   "/index.md": {
     "tokens": 657,
     "bytes": 2785,
-    "hash": "bcdd3c16"
+    "hash": "a6eb8b44"
   },
   "/services.md": {
     "tokens": 461,
     "bytes": 1990,
-    "hash": "573efc6d"
+    "hash": "cdc2727a"
   },
   "/about.md": {
     "tokens": 813,
     "bytes": 3877,
-    "hash": "0bfb319f"
+    "hash": "7972b2bb"
   },
   "/clients.md": {
     "tokens": 578,
     "bytes": 2468,
-    "hash": "7c60511a"
+    "hash": "f3055c16"
   },
   "/dossier.md": {
     "tokens": 804,
     "bytes": 3407,
-    "hash": "f1d374d3"
+    "hash": "41422762"
   },
   "/card.md": {
     "tokens": 404,
     "bytes": 1598,
-    "hash": "d9bc4cd4"
+    "hash": "fc72948e"
   },
   "/agents.md": {
     "tokens": 833,
     "bytes": 3422,
-    "hash": "b5b06011"
+    "hash": "4ddac382"
   },
   "/newsletter.md": {
     "tokens": 1396,
     "bytes": 5321,
-    "hash": "247805b1"
+    "hash": "d300a159"
   },
   "/newsletter/big-banks-lock-out-customer-ai.md": {
     "tokens": 273,
@@ -143,6 +143,6 @@ export default {
   "/observatory.md": {
     "tokens": 281,
     "bytes": 1129,
-    "hash": "58487780"
+    "hash": "7358858c"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;
