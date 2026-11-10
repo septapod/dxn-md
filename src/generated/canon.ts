@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "1d96b2725697",
+  "canon_hash": "1b3ade6b4416",
   "latest_issue": {
     "title": "Big banks lock out customers’ AI",
     "link": "https://ai4fis.beehiiv.com/p/big-banks-lock-out-customer-ai",
@@ -292,9 +292,9 @@ const generated: GeneratedCanon = {
       }
     },
     "framework": {
-      "last_verified": "2026-06-12",
+      "last_verified": "2026-11-10",
       "name": "Three conditions for strategy that holds up",
-      "intro": "Brent's framework for the work, drawn from years of facilitation.",
+      "intro": "Brent's framework for the work. It draws on Playing to Win by A.G. Lafley and Roger Martin, and on the work of Michael Porter and Richard Rumelt.",
       "conditions": [
         {
           "name": "Group alignment",
@@ -312,7 +312,7 @@ const generated: GeneratedCanon = {
         },
         {
           "name": "Tested bets",
-          "body": "Every strategy is a bet. The question is whether you are improving the odds before you commit. \"What would need to be true for this to work?\" turns a guess into something you can test, and a tested bet is one a team can adapt when reality shifts."
+          "body": "Every strategy is a bet. The question is whether you are improving the odds before you commit. \"What would need to be true for this to work?\", a question from the Playing to Win framework, turns a guess into something you can test, and a tested bet is one a team can adapt when reality shifts."
         }
       ]
     },
