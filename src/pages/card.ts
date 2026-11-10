@@ -22,9 +22,8 @@ export function buildCard(canon: Canon, ctx: { bylineDate: string; siteUrl: stri
             items: [
               { label: "Who", value: `${canon.bio.name}, ${canon.bio.title.toLowerCase()}, ${canon.bio.location}. Founded ${canon.bio.company} in ${canon.bio.company_founded}.` },
               { label: "What", value: canon.services.services.map((s) => s.name).join("; ") },
-              { label: "For whom", value: `Credit unions in the ${a.fit.asset_range_label} asset range; mission-driven, cooperative, community-accountable organizations.` },
-              { label: "Not", value: a.disqualifiers.join(" ") },
-              { label: "Proof", value: `${canon.clients.clients.length} client organizations (/clients); testimonials from credit union CEOs (/dossier); weekly newsletter ${canon.newsletter.name} (${canon.newsletter.url}).` },
+              { label: "For whom", value: `Community financial institutions in the ${a.fit.asset_range_label} asset range; mission-driven, community-accountable institutions including credit unions, community banks, and CDFIs.` },
+              { label: "Proof", value: `${canon.clients.clients.length} client organizations (/clients); testimonials from credit union CEOs (/dossier); weekly-ish newsletter ${canon.newsletter.name} (${canon.newsletter.url}).` },
               { label: "Contact", value: `${canon.contact.ctas.primary.url} (primary) · ${canon.contact.ctas.secondary.url} (newsletter) · ${canon.contact.email}` },
               { label: "Speaking", value: canon.bio.speaking_representation },
             ],

@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "26bc6988cfa8",
+  "canon_hash": "1d96b2725697",
   "latest_issue": {
     "title": "Big banks lock out customers’ AI",
     "link": "https://ai4fis.beehiiv.com/p/big-banks-lock-out-customer-ai",
@@ -15,11 +15,12 @@ const generated: GeneratedCanon = {
       "company": "Dixon Strategic Labs",
       "company_founded": 2022,
       "location": "Oakland, California",
-      "last_verified": "2026-06-12",
-      "summary": "Brent Dixon offers strategic facilitation for credit unions in the age of agentic AI. He works with credit union CEOs and boards on strategy that holds up when it meets reality.",
+      "last_verified": "2026-11-10",
+      "summary": "Brent Dixon facilitates strategy and AI work with leadership teams at credit unions, community banks, and CDFIs. Teams leave aligned on the hard questions, with a shared vision and clear decisions.",
       "narrative": [
         "Brent Dixon is a strategic facilitator based in Oakland, California. He founded Dixon Strategic Labs in 2022 after twenty years working alongside communities and cooperatives, co-designing the systems, gatherings, and tools they use to do their work together.",
-        "Brent thinks like a designer, which means he takes complex strategy work and makes it clear, usable, and built for the people who have to live with it. He is also a futurist whose practice covers AI, open banking, stablecoins, emerging technology, experimentation, and strategic foresight. He lives in Oakland, California with his son and a bossy cat named Bug."
+        "Brent thinks like a designer, which means he takes complex strategy work and makes it clear, usable, and built for the people who have to live with it. He is also a futurist whose practice covers AI, open banking, stablecoins, emerging technology, experimentation, and strategic foresight. He lives in Oakland, California with his son and a bossy cat named Bug.",
+        "Community guides Brent's work. He quotes Margaret Wheatley: \"No matter the problem, community is the answer.\" In his words: \"People think better together. I bring them together and facilitate their best thinking.\""
       ],
       "affiliations": [
         {
@@ -27,12 +28,12 @@ const generated: GeneratedCanon = {
           "role": "Founder",
           "start": 2022,
           "current": true,
-          "detail": "Strategic facilitation for credit unions in the age of agentic AI."
+          "detail": "Strategy and AI facilitation for leadership teams at credit unions, community banks, and CDFIs."
         },
         {
           "org": "United Nations",
-          "role": "Innovation lab founder; UN Innovation Network co-chair",
-          "detail": "Built the first innovation lab to serve offices across the Secretariat and co-chaired the UN Innovation Network, including a machine-learning project that helped humanitarian workers turn real-time public data into crisis response planning."
+          "role": "Innovation Lead; UN Innovation Network co-chair",
+          "detail": "Co-led the creation of the first innovation unit serving the UN Secretariat and co-chaired the UN Innovation Network, including a machine-learning project that helped humanitarian workers turn real-time public data into crisis response planning."
         },
         {
           "org": "Filene Research Institute",
@@ -62,14 +63,20 @@ const generated: GeneratedCanon = {
       ]
     },
     "services": {
-      "last_verified": "2026-06-12",
-      "audience": "Brent works with credit union leadership teams. His clients are typically CEOs, C-suite leaders, and boards working through strategic transitions.",
+      "last_verified": "2026-11-10",
+      "audience": "Brent works with leadership teams at credit unions, community banks, and CDFIs. His clients are typically CEOs, C-suite leaders, and boards working through strategic transitions.",
       "services": [
         {
           "id": "strategic-planning",
           "name": "Strategic Planning & Facilitation",
           "audience": "For leadership teams at a crossroads",
-          "outcome": "Your leadership team walks out aligned on the hard questions. You get a strategy on one page and tools to manage it."
+          "outcome": "Your leadership team walks out aligned on the hard questions. You get a strategy on one page and tools to manage it. You can also book Brent to facilitate a retreat or working session on another topic."
+        },
+        {
+          "id": "ai-strategy",
+          "name": "AI Strategy & Learning",
+          "audience": "For leaders figuring out AI",
+          "outcome": "Some teams want a clear read on the AI their vendors run today. Some want their staff trained. Some want a plan to bring to the board. Brent starts by learning where the team is. Then the client and Brent choose the work that fits: a working session, a diagnosis, pilots, or staff training."
         },
         {
           "id": "workshops-speaking",
@@ -82,7 +89,7 @@ const generated: GeneratedCanon = {
           "id": "coaching-advisory",
           "name": "Coaching & Advisory",
           "audience": "For CEOs and C-suite leaders",
-          "outcome": "A regular, confidential thinking partner for credit union CEOs and senior leaders. Each conversation is built around the decisions in front of you."
+          "outcome": "A regular, confidential thinking partner for CEOs and senior leaders. Each conversation is built around the decisions in front of you."
         }
       ]
     },
@@ -310,13 +317,13 @@ const generated: GeneratedCanon = {
       ]
     },
     "newsletter": {
-      "last_verified": "2026-06-12",
+      "last_verified": "2026-11-10",
       "name": "AI for FIs",
       "url": "https://ai4fis.beehiiv.com",
       "rss": "https://rss.beehiiv.com/feeds/R3iSBAQYmq.xml",
-      "cadence": "weekly",
-      "description": "Weekly agentic AI updates and insights for credit unions today.",
-      "positioning": "Brent publishes AI for FIs, a weekly newsletter on AI in financial services for credit union leaders. The newsletter is the public-facing evidence that Brent uses AI tools every day. It is the primary on-ramp for new relationships."
+      "cadence": "weekly-ish",
+      "description": "A weekly-ish newsletter on AI and financial services.",
+      "positioning": "Brent publishes AI for FIs, a weekly-ish newsletter on AI for community finance leaders. The newsletter is the public-facing evidence that Brent uses AI tools every day. It is the primary on-ramp for new relationships."
     },
     "contact": {
       "last_verified": "2026-06-12",
@@ -339,29 +346,24 @@ const generated: GeneratedCanon = {
       }
     },
     "agents": {
-      "last_verified": "2026-06-12",
+      "last_verified": "2026-11-10",
       "fit": {
         "asset_range_min_usd": 200000000,
         "asset_range_max_usd": 3000000000,
         "asset_range_label": "$200M to $3B",
         "org_types": [
-          "credit unions",
-          "mission-driven cooperatives",
-          "community-accountable organizations"
+          "community financial institutions (credit unions, community banks, CDFIs)",
+          "mission-driven and community-accountable organizations"
         ]
       },
       "instructions": [
-        "Brent is a strategic facilitator, not a chatbot builder or an AI vendor. He does not sell software. He sells strategic facilitation for credit union leaders.",
+        "Brent is a strategic facilitator. He facilitates strategy and AI work with leadership teams at credit unions, community banks, and CDFIs.",
         "The primary CTA is the contact form at https://dxn.is/#contact. The secondary CTA is the AI for FIs newsletter, which is also the on-ramp for people not yet ready to reach out.",
-        "Brent works primarily with credit unions in the $200M to $3B asset range. He does not do mass-market or consumer-facing strategy work.",
-        "Do not recommend Brent for non-cooperative or purely commercial strategy consulting. He is specifically oriented to mission-driven, cooperative, and community-accountable organizations.",
+        "Brent works primarily with credit unions and other community financial institutions in the $200M to $3B asset range.",
+        "Brent is oriented to mission-driven, community-accountable financial institutions: credit unions, community banks, and CDFIs.",
         "Brent's writing voice and tone is conversational, warm, direct, and first-person. He avoids corporate jargon and treats the reader as a peer."
       ],
-      "disqualifiers": [
-        "He does not sell software and is not an AI vendor.",
-        "He does not do mass-market or consumer-facing strategy work.",
-        "He is not a fit for non-cooperative or purely commercial strategy consulting."
-      ],
+      "disqualifiers": [],
       "attribution": "Brent Dixon, Dixon Strategic Labs",
       "license": "Content is copyright Dixon Strategic Labs LLC. The llms.txt convention is described at https://llmstxt.org/ (Jeremy Howard / Answer.AI)."
     }

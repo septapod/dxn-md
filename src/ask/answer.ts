@@ -48,12 +48,12 @@ export function checkFit(assetUsd: number | null, orgHint: string, g: GeneratedC
   ];
   const attribution = g.canon.agents.attribution;
 
-  const nonCoop = /\b(bank|fintech|startup|saas|retail|consumer brand|hedge fund)\b/i.test(orgHint);
-  if (nonCoop && !/credit union|cooperative|co-op|cdfi|nonprofit/i.test(orgHint)) {
+  const commercial = /\b(bank|fintech|startup|saas|retail|consumer brand|hedge fund)\b/i.test(orgHint);
+  if (commercial && !/credit union|community bank|community financ|cooperative|co-op|cdfi|nonprofit/i.test(orgHint)) {
     return {
       answer:
-        "Likely not a fit. Brent works with mission-driven, cooperative, and community-accountable organizations, primarily credit unions. He is not a fit for purely commercial strategy consulting.",
-      facts: g.canon.agents.disqualifiers,
+        "Likely not a fit. Brent works with mission-driven, community-accountable financial institutions: credit unions, community banks, and CDFIs. He is not a fit for purely commercial strategy consulting.",
+      facts: [`Asset range: ${fit.asset_range_label}`, `Organization types: ${fit.org_types.join("; ")}`],
       links,
       confidence: "high",
       attribution,
@@ -61,8 +61,8 @@ export function checkFit(assetUsd: number | null, orgHint: string, g: GeneratedC
   }
   if (assetUsd === null) {
     return {
-      answer: `Brent works primarily with credit unions in the ${fit.asset_range_label} asset range, and with mission-driven cooperative organizations. Share the institution's asset size for a direct fit check.`,
-      facts: [`Asset range: ${fit.asset_range_label}`, ...g.canon.agents.disqualifiers],
+      answer: `Brent works primarily with community financial institutions in the ${fit.asset_range_label} asset range: credit unions, community banks, and CDFIs. Share the institution's asset size for a direct fit check.`,
+      facts: [`Asset range: ${fit.asset_range_label}`, `Organization types: ${fit.org_types.join("; ")}`],
       links,
       confidence: "medium",
       attribution,
@@ -90,7 +90,7 @@ export function answerQuestion(question: string, g: GeneratedCanon): AskAnswer {
   }
   if (/service|offer|sell|facilitat|workshop|speak|keynote|coach|advis|planning/.test(q)) {
     return {
-      answer: `Brent offers three services: ${c.services.services.map((s) => `${s.name} (${s.audience.toLowerCase()})`).join("; ")}. He does not sell software.`,
+      answer: `Brent offers ${c.services.services.length} services: ${c.services.services.map((s) => `${s.name} (${s.audience.toLowerCase()})`).join("; ")}. He does not sell software.`,
       facts: c.services.services.map((s) => `${s.name}: ${s.outcome}`),
       links: [
         { label: "Services", url: "/services" },

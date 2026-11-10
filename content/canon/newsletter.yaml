@@ -1,12 +1,12 @@
-# Canonical newsletter facts. Verified against the live Beehiiv feed on 2026-06-12.
-last_verified: "2026-06-12"
+# Canonical newsletter facts. Wording matches dxn.is as of 2026-11-10.
+last_verified: "2026-11-10"
 name: AI for FIs
 url: https://ai4fis.beehiiv.com
 rss: https://rss.beehiiv.com/feeds/R3iSBAQYmq.xml
-cadence: weekly
-description: Weekly agentic AI updates and insights for credit unions today.
+cadence: weekly-ish
+description: A weekly-ish newsletter on AI and financial services.
 positioning: >-
-  Brent publishes AI for FIs, a weekly newsletter on AI in financial services
-  for credit union leaders. The newsletter is the public-facing evidence that
+  Brent publishes AI for FIs, a weekly-ish newsletter on AI for community
+  finance leaders. The newsletter is the public-facing evidence that
   Brent uses AI tools every day. It is the primary on-ramp for new
   relationships.

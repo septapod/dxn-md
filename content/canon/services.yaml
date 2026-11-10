@@ -1,15 +1,25 @@
-# Canonical services. Copy extracted verbatim from dxn.is index.html and llms.txt on 2026-06-12.
-last_verified: "2026-06-12"
+# Canonical services. Copy matches dxn.is index.html as of 2026-11-10.
+last_verified: "2026-11-10"
 audience: >-
-  Brent works with credit union leadership teams. His clients are typically
-  CEOs, C-suite leaders, and boards working through strategic transitions.
+  Brent works with leadership teams at credit unions, community banks, and
+  CDFIs. His clients are typically CEOs, C-suite leaders, and boards working
+  through strategic transitions.
 services:
   - id: strategic-planning
     name: Strategic Planning & Facilitation
     audience: For leadership teams at a crossroads
     outcome: >-
       Your leadership team walks out aligned on the hard questions. You get a
-      strategy on one page and tools to manage it.
+      strategy on one page and tools to manage it. You can also book Brent to
+      facilitate a retreat or working session on another topic.
+  - id: ai-strategy
+    name: AI Strategy & Learning
+    audience: For leaders figuring out AI
+    outcome: >-
+      Some teams want a clear read on the AI their vendors run today. Some want
+      their staff trained. Some want a plan to bring to the board. Brent starts
+      by learning where the team is. Then the client and Brent choose the work
+      that fits: a working session, a diagnosis, pilots, or staff training.
   - id: workshops-speaking
     name: Workshops & Speaking
     audience: For boards, staff, and industry audiences
@@ -23,5 +33,5 @@ services:
     name: Coaching & Advisory
     audience: For CEOs and C-suite leaders
     outcome: >-
-      A regular, confidential thinking partner for credit union CEOs and senior
-      leaders. Each conversation is built around the decisions in front of you.
+      A regular, confidential thinking partner for CEOs and senior leaders.
+      Each conversation is built around the decisions in front of you.

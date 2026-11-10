@@ -128,7 +128,7 @@ export const agentsSchema = z.object({
     org_types: z.array(z.string().min(1)).min(1),
   }),
   instructions: z.array(z.string().min(1)).min(1),
-  disqualifiers: z.array(z.string().min(1)).min(1),
+  disqualifiers: z.array(z.string().min(1)),
   attribution: z.string().min(1),
   license: z.string().min(1),
 });

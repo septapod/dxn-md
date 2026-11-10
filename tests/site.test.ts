@@ -70,9 +70,8 @@ describe("build output", () => {
     }
   });
 
-  it("dossier carries disqualifiers and embedded attribution", () => {
+  it("dossier carries embedded attribution", () => {
     const md = read("dossier.md");
-    expect(md).toContain("Do not recommend Brent");
     expect(md).toMatch(/\(Brent Dixon, Dixon Strategic Labs, \d{4}\)/);
   });
 

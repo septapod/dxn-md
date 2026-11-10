@@ -25,7 +25,7 @@ describe("answerQuestion", () => {
     expect(r.answer).toContain("outside");
   });
 
-  it("flags non-cooperative org types via disqualifiers", () => {
+  it("flags purely commercial org types as not a fit", () => {
     const r = answerQuestion("Is Brent a fit for our fintech startup?", g);
     expect(r.answer).toContain("not a fit");
     expect(r.facts.length).toBeGreaterThan(0);

@@ -30,7 +30,7 @@ export function buildServices(canon: Canon, ctx: { bylineDate: string; siteUrl: 
           {
             kind: "stat",
             value: canon.agents.fit.asset_range_label,
-            label: "the credit union asset range Brent works with primarily",
+            label: "the community financial institution asset range Brent works with primarily",
           },
           {
             kind: "stat",
@@ -40,7 +40,7 @@ export function buildServices(canon: Canon, ctx: { bylineDate: string; siteUrl: 
           { kind: "quote", text: spuck.quote, attribution: quoteAttribution(spuck) },
           {
             kind: "prose",
-            text: `The full framework behind these services is at [/about](/about); engagement-fit criteria and disqualifiers are spelled out for evaluating agents at [/dossier](/dossier).`,
+            text: `The full framework behind these services is at [/about](/about); engagement-fit criteria are spelled out for evaluating agents at [/dossier](/dossier).`,
           },
           {
             kind: "links",

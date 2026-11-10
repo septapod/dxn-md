@@ -14,11 +14,13 @@ export function personLd(canon: Canon, siteUrl: string): object {
     knowsAbout: [
       "Strategic Facilitation",
       "AI Strategy for Credit Unions",
+      "AI Strategy for Community Finance",
       "Agentic AI",
       "Cooperative Finance",
       "Organizational Strategy",
       "Leadership Alignment",
       "Credit Union Governance",
+      "Community Finance Governance",
     ],
   };
 }
@@ -46,7 +48,7 @@ export function professionalServiceLd(canon: Canon, siteUrl: string): object {
     serviceType: canon.services.services.map((s) => s.name),
     audience: {
       "@type": "Audience",
-      audienceType: ["Credit Unions", "Community Financial Institutions"],
+      audienceType: ["Credit Unions", "Community Finance"],
     },
   };
 }
