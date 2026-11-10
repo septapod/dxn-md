@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "1b3ade6b4416",
+  "canon_hash": "45869ca610b1",
   "latest_issue": {
     "title": "Big banks lock out customers’ AI",
     "link": "https://ai4fis.beehiiv.com/p/big-banks-lock-out-customer-ai",
@@ -294,7 +294,7 @@ const generated: GeneratedCanon = {
     "framework": {
       "last_verified": "2026-11-10",
       "name": "Three conditions for strategy that holds up",
-      "intro": "Brent's framework for the work. It draws on Playing to Win by A.G. Lafley and Roger Martin, and on the work of Michael Porter and Richard Rumelt.",
+      "intro": "Brent's framework for the work. It draws on the work of bright minds including Roger Martin, Margaret Wheatley, Michael Porter, Henri Lipmanowicz, Keith McCandless, and Richard Rumelt.",
       "conditions": [
         {
           "name": "Group alignment",
