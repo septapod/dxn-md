@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "c18fe7e60bde",
+  "canon_hash": "3e4e51e7cfd6",
   "latest_issue": {
     "title": "Big banks lock out customers’ AI",
     "link": "https://ai4fis.beehiiv.com/p/big-banks-lock-out-customer-ai",
@@ -52,7 +52,7 @@ const generated: GeneratedCanon = {
         },
         {
           "org": "Moeda Seeds",
-          "role": "Co-founder",
+          "role": "Founding team",
           "detail": "Blockchain cooperative lending platform for Brazilian agricultural cooperatives."
         }
       ],

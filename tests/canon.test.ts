@@ -18,6 +18,13 @@ describe("canon", () => {
     expect(orgs).toContain("Communitere International");
   });
 
+  it("lists Moeda Seeds as founding team, never co-founder (Brent's ruling, 2026-11-11)", () => {
+    const { canon } = loadCanon();
+    const moeda = canon.bio.affiliations.find((a) => a.org === "Moeda Seeds");
+    expect(moeda?.role).toBe("Founding team");
+    expect(JSON.stringify(moeda)).not.toMatch(/co-?founder/i);
+  });
+
   it("carries the full client list from the dxnis source (27 financial + 11 social)", () => {
     const { canon } = loadCanon();
     expect(canon.clients.clients).toHaveLength(38);
