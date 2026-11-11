@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "45869ca610b1",
+  "canon_hash": "67c73c27d223",
   "latest_issue": {
     "title": "Big banks lock out customers’ AI",
     "link": "https://ai4fis.beehiiv.com/p/big-banks-lock-out-customer-ai",
@@ -20,7 +20,7 @@ const generated: GeneratedCanon = {
       "narrative": [
         "Brent Dixon is a strategic facilitator based in Oakland, California. He founded Dixon Strategic Labs in 2022 after twenty years working alongside communities and cooperatives, co-designing the systems, gatherings, and tools they use to do their work together.",
         "Brent thinks like a designer, which means he takes complex strategy work and makes it clear, usable, and built for the people who have to live with it. He is also a futurist whose practice covers AI, open banking, stablecoins, emerging technology, experimentation, and strategic foresight. He lives in Oakland, California with his son and a bossy cat named Bug.",
-        "Community guides Brent's work. He quotes Margaret Wheatley: \"No matter the problem, community is the answer.\" In his words: \"People think better together. I bring them together and facilitate their best thinking.\""
+        "Community guides Brent's work. He quotes Margaret Wheatley: \"No matter the problem, community is the answer.\" In his words: \"People think better together. I bring them together to facilitate their best thinking.\""
       ],
       "affiliations": [
         {
