@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "67c73c27d223",
+  "canon_hash": "c18fe7e60bde",
   "latest_issue": {
     "title": "Big banks lock out customers’ AI",
     "link": "https://ai4fis.beehiiv.com/p/big-banks-lock-out-customer-ai",
@@ -38,7 +38,7 @@ const generated: GeneratedCanon = {
         {
           "org": "Filene Research Institute",
           "role": "Founder of The Cooperative Trust; i3 Innovation program lead",
-          "detail": "Founded The Cooperative Trust, a community of rising credit union professionals whose original crash of the industry's biggest event became an annual program Filene still runs today, and later led the i3 Innovation program for senior credit union executives."
+          "detail": "Founded The Cooperative Trust, a community of young credit union professionals. It began in 2010, when Brent brought 25 of them to the industry's national conference, and it has connected thousands since (https://www.filene.org/blog/the-trust-connection). Later led the i3 Innovation program for senior credit union executives."
         },
         {
           "org": "Singularity University",
