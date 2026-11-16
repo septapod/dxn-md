@@ -1,6 +1,58 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-11",
   "entries": [
+    {
+      "date": "2026-11-11",
+      "summary": "fix(canon): Moeda role is founding team, not co-founder",
+      "areas": [
+        "bio"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "summary": "fix(canon): explain Cooperative Trust origin and reach",
+      "areas": [
+        "bio"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "summary": "fix(canon): bring them together to facilitate their best thinking",
+      "areas": [
+        "bio"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "summary": "feat(canon): list Brent's influences as one mixed group",
+      "areas": [
+        "framework"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "summary": "feat(canon): credit Playing to Win, Porter, and Rumelt in the framework",
+      "areas": [
+        "framework"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "summary": "feat(canon): sync the agent site with the current dxn.is positioning",
+      "areas": [
+        "agents",
+        "bio",
+        "newsletter",
+        "services"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "summary": "chore(data): weekly feed snapshot and change log refresh",
+      "areas": [
+        "newsletter-feed"
+      ]
+    },
     {
       "date": "2026-11-02",
       "summary": "chore(data): weekly feed snapshot and change log refresh",

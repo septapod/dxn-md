@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "3e4e51e7cfd6",
   "latest_issue": {
-    "title": "Big banks lock out customers’ AI",
-    "link": "https://ai4fis.beehiiv.com/p/big-banks-lock-out-customer-ai",
-    "date": "2026-10-27"
+    "title": "AI agents raised spending limits without owners&#39; permission",
+    "link": "https://ai4fis.beehiiv.com/p/agents-boosting-limits",
+    "date": "2026-11-10"
   },
   "canon": {
     "bio": {
