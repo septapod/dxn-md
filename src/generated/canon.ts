@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "25e57beffcf2",
+  "canon_hash": "711c9ea8be6a",
   "latest_issue": {
     "title": "AI agents raised spending limits without owners&#39; permission",
     "link": "https://ai4fis.beehiiv.com/p/agents-boosting-limits",
@@ -89,7 +89,7 @@ const generated: GeneratedCanon = {
           "id": "ai-strategy",
           "name": "AI Strategy & Learning",
           "audience": "For leaders figuring out AI",
-          "outcome": "Some teams want a clear read on the AI their vendors run today. Some want their staff trained. Some want a plan to bring to the board. The leaders align on what AI should do for the institution, so every pilot, vendor choice, and training session has a clear reason behind it. The work starts from where the team is: its needs, its goals, its opportunities, and what's already in place."
+          "outcome": "Some teams want a clear read on the AI their vendors run today. Some want their staff trained. Some want a plan to bring to the board. The leaders align on what AI should do for the institution, so every pilot, vendor choice, and training session has a clear reason behind it. The work starts from where the team is: its needs, its goals, its opportunities, and what's in place."
         },
         {
           "id": "workshops-speaking",

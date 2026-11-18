@@ -2,147 +2,147 @@
 export default {
   "/index.md": {
     "tokens": 805,
-    "bytes": 3463,
-    "hash": "444f5827"
+    "bytes": 3455,
+    "hash": "c19b926b"
   },
   "/services.md": {
     "tokens": 612,
-    "bytes": 2712,
-    "hash": "3ab38b28"
+    "bytes": 2704,
+    "hash": "1355511e"
   },
   "/about.md": {
-    "tokens": 1222,
+    "tokens": 1223,
     "bytes": 5712,
-    "hash": "1259b960"
+    "hash": "61aab5c0"
   },
   "/clients.md": {
-    "tokens": 593,
+    "tokens": 594,
     "bytes": 2523,
-    "hash": "42e37a00"
+    "hash": "03b74842"
   },
   "/dossier.md": {
-    "tokens": 758,
+    "tokens": 759,
     "bytes": 3232,
-    "hash": "ff30e684"
+    "hash": "517091fa"
   },
   "/card.md": {
-    "tokens": 400,
+    "tokens": 401,
     "bytes": 1568,
-    "hash": "3298d37b"
+    "hash": "3ca0a922"
   },
   "/agents.md": {
-    "tokens": 850,
+    "tokens": 851,
     "bytes": 3463,
-    "hash": "5235920e"
+    "hash": "7d78d4c4"
   },
   "/newsletter.md": {
-    "tokens": 1411,
+    "tokens": 1412,
     "bytes": 5395,
-    "hash": "9d1459b4"
+    "hash": "422bd631"
   },
   "/newsletter/agents-boosting-limits.md": {
-    "tokens": 306,
+    "tokens": 307,
     "bytes": 1074,
-    "hash": "1fe9b613"
+    "hash": "1c149c5d"
   },
   "/newsletter/big-banks-lock-out-customer-ai.md": {
-    "tokens": 288,
+    "tokens": 289,
     "bytes": 991,
-    "hash": "e19967d7"
+    "hash": "940070af"
   },
   "/newsletter/navyfcu-bots-scam-scammers.md": {
-    "tokens": 350,
+    "tokens": 351,
     "bytes": 1229,
-    "hash": "925455c2"
+    "hash": "f41d503d"
   },
   "/newsletter/whos-the-product-here.md": {
-    "tokens": 298,
+    "tokens": 299,
     "bytes": 998,
-    "hash": "f03f8712"
+    "hash": "df8f09ee"
   },
   "/newsletter/why-ai-builders-say-it-might-kill-us.md": {
-    "tokens": 328,
+    "tokens": 329,
     "bytes": 1136,
-    "hash": "bf9b83b3"
+    "hash": "21e7f0d1"
   },
   "/newsletter/identity-theft-swarm.md": {
-    "tokens": 322,
+    "tokens": 323,
     "bytes": 1148,
-    "hash": "7563eaca"
+    "hash": "f3849823"
   },
   "/newsletter/blends-50k-mortgage-agent.md": {
-    "tokens": 327,
+    "tokens": 328,
     "bytes": 1107,
-    "hash": "7c3e6069"
+    "hash": "9cb22fbe"
   },
   "/newsletter/whos-choosing.md": {
-    "tokens": 300,
+    "tokens": 301,
     "bytes": 1032,
-    "hash": "9e77c7f7"
+    "hash": "076b9ee9"
   },
   "/newsletter/moving-money-at-penfed.md": {
-    "tokens": 317,
+    "tokens": 318,
     "bytes": 1107,
-    "hash": "c557f3d8"
+    "hash": "00574b4a"
   },
   "/newsletter/credit-union-security-cases-100-to-10.md": {
-    "tokens": 335,
+    "tokens": 336,
     "bytes": 1158,
-    "hash": "237a90b9"
+    "hash": "2080aa12"
   },
   "/newsletter/the-80-agent-chain-behind-one-loan.md": {
-    "tokens": 329,
+    "tokens": 330,
     "bytes": 1172,
-    "hash": "db0d40bd"
+    "hash": "915e765e"
   },
   "/newsletter/two-banks-and-escape.md": {
-    "tokens": 339,
+    "tokens": 340,
     "bytes": 1204,
-    "hash": "e381a2db"
+    "hash": "5108df0c"
   },
   "/newsletter/agent-marketplace.md": {
-    "tokens": 313,
+    "tokens": 314,
     "bytes": 1143,
-    "hash": "f9485b6f"
+    "hash": "8c6c6c2c"
   },
   "/newsletter/ai-ransomware-attack.md": {
-    "tokens": 307,
+    "tokens": 308,
     "bytes": 1067,
-    "hash": "15bc118b"
+    "hash": "8266eef8"
   },
   "/newsletter/us-gated-its-ai-china-gave-one-away.md": {
-    "tokens": 358,
+    "tokens": 359,
     "bytes": 1245,
-    "hash": "b392e2dd"
+    "hash": "53d1efd3"
   },
   "/newsletter/treat-an-agent-like-an-inside-threat.md": {
-    "tokens": 350,
+    "tokens": 351,
     "bytes": 1258,
-    "hash": "8d90eb46"
+    "hash": "d6fcda49"
   },
   "/newsletter/650-institutions-let-ai-triage-financial-crime-should-they.md": {
-    "tokens": 372,
+    "tokens": 373,
     "bytes": 1327,
-    "hash": "54d99232"
+    "hash": "4b95da34"
   },
   "/newsletter/negotiating-repayment-plans.md": {
-    "tokens": 326,
+    "tokens": 327,
     "bytes": 1154,
-    "hash": "4f36aecb"
+    "hash": "10e073a3"
   },
   "/newsletter/what-did-penfed-get-from-ai-that-uber-didn-t-results.md": {
-    "tokens": 388,
+    "tokens": 389,
     "bytes": 1344,
-    "hash": "09585a45"
+    "hash": "6c254b27"
   },
   "/newsletter/3-minute-mortgage-how.md": {
-    "tokens": 322,
+    "tokens": 323,
     "bytes": 1082,
-    "hash": "759fc5f5"
+    "hash": "9c20ee22"
   },
   "/observatory.md": {
-    "tokens": 296,
+    "tokens": 297,
     "bytes": 1184,
-    "hash": "80d41642"
+    "hash": "cd3bf587"
   }
 } as Record<string, { tokens: number; bytes: number; hash: string }>;

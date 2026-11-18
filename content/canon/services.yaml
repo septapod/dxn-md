@@ -23,7 +23,7 @@ services:
       leaders align on what AI should do for the institution, so every pilot,
       vendor choice, and training session has a clear reason behind it. The
       work starts from where the team is: its needs, its goals, its
-      opportunities, and what's already in place.
+      opportunities, and what's in place.
   - id: workshops-speaking
     name: Workshops & Speaking
     audience: For boards, staff, and industry audiences
