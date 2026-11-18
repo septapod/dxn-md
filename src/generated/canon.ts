@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "7bb90401e115",
+  "canon_hash": "25e57beffcf2",
   "latest_issue": {
     "title": "AI agents raised spending limits without owners&#39; permission",
     "link": "https://ai4fis.beehiiv.com/p/agents-boosting-limits",
@@ -89,7 +89,7 @@ const generated: GeneratedCanon = {
           "id": "ai-strategy",
           "name": "AI Strategy & Learning",
           "audience": "For leaders figuring out AI",
-          "outcome": "Some teams want a clear read on the AI their vendors run today. Some want their staff trained. Some want a plan to bring to the board. Brent starts by learning how the team uses AI today. Then he helps its leaders align on what they want AI to do for the institution, so every pilot, vendor choice, and training session has a clear reason behind it."
+          "outcome": "Some teams want a clear read on the AI their vendors run today. Some want their staff trained. Some want a plan to bring to the board. The leaders align on what AI should do for the institution, so every pilot, vendor choice, and training session has a clear reason behind it. The work starts from where the team is: its needs, its goals, its opportunities, and what's already in place."
         },
         {
           "id": "workshops-speaking",
@@ -315,7 +315,7 @@ const generated: GeneratedCanon = {
         },
         {
           "name": "Prioritized choices",
-          "body": "Michael Porter wrote, \"The essence of strategy is choosing what not to do.\" Two or three priorities a team can execute will outperform a long list of initiatives all marked \"high priority.\"",
+          "body": "Harvard Business School strategy professor Michael Porter wrote, \"The essence of strategy is choosing what not to do.\" Two or three priorities a team can execute will outperform a long list of initiatives all marked \"high priority.\"",
           "citation": {
             "quote": "The essence of strategy is choosing what not to do.",
             "author": "Michael Porter",
