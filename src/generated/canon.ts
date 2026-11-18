@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "3e4e51e7cfd6",
+  "canon_hash": "bfc532bc7b0e",
   "latest_issue": {
     "title": "AI agents raised spending limits without owners&#39; permission",
     "link": "https://ai4fis.beehiiv.com/p/agents-boosting-limits",
@@ -15,11 +15,12 @@ const generated: GeneratedCanon = {
       "company": "Dixon Strategic Labs",
       "company_founded": 2022,
       "location": "Oakland, California",
-      "last_verified": "2026-11-10",
-      "summary": "Brent Dixon facilitates strategy and AI work with leadership teams at credit unions, community banks, and CDFIs. Teams leave aligned on the hard questions, with a shared vision and clear decisions.",
+      "last_verified": "2026-11-18",
+      "summary": "Brent Dixon helps leadership teams at credit unions, community banks, and CDFIs make hard choices together: where to focus, how to succeed, and what not to pursue. They leave ready to get things done.",
       "narrative": [
         "Brent Dixon is a strategic facilitator based in Oakland, California. He founded Dixon Strategic Labs in 2022 after twenty years working alongside communities and cooperatives, co-designing the systems, gatherings, and tools they use to do their work together.",
         "Brent thinks like a designer, which means he takes complex strategy work and makes it clear, usable, and built for the people who have to live with it. He is also a futurist whose practice covers AI, open banking, stablecoins, emerging technology, experimentation, and strategic foresight. He lives in Oakland, California with his son and a bossy cat named Bug.",
+        "Brent has given hundreds of talks and workshops on four continents, at venues from the UN General Assembly Hall to the World Credit Union Conference, NCUA, and the AICPA. For speaking engagements, he is represented by Category 6 Consulting.",
         "Community guides Brent's work. He quotes Margaret Wheatley: \"No matter the problem, community is the answer.\" In his words: \"People think better together. I bring them together to facilitate their best thinking.\""
       ],
       "affiliations": [
@@ -28,7 +29,19 @@ const generated: GeneratedCanon = {
           "role": "Founder",
           "start": 2022,
           "current": true,
-          "detail": "Strategy and AI facilitation for leadership teams at credit unions, community banks, and CDFIs."
+          "detail": "Strategy and AI facilitation for leadership teams at credit unions, community banks, and CDFIs. Since 2022, Brent has worked with more than 25 organizations: credit unions from about $23 million to more than $9 billion in assets, community banks, industry associations, government agencies, foundations, and community organizers."
+        },
+        {
+          "org": "AI for FIs",
+          "role": "Writer and publisher",
+          "start": 2026,
+          "current": true,
+          "detail": "A weekly-ish newsletter for community finance leaders on how AI agents are being used in financial services (https://ai4fis.beehiiv.com). Brent built the system behind it. AI agents find sources and confirm each claim, then the agents and Brent trade drafts and edits until every story reads clearly. That back-and-forth is the biggest part of the work. Brent chooses the stories and approves every issue."
+        },
+        {
+          "org": "Trabian",
+          "role": "Creative Director (2003 to 2008); Chief Design Officer (2021)",
+          "detail": "Worked with co-founders Matt Dean and Trey Reeme to build Trabian from its embryonic stage, as its creative director from 2003 to 2008. Trabian has since served hundreds of credit unions, banks, and fintechs. Brent came back in 2021 as Chief Design Officer and led the design team."
         },
         {
           "org": "United Nations",
@@ -63,14 +76,14 @@ const generated: GeneratedCanon = {
       ]
     },
     "services": {
-      "last_verified": "2026-11-10",
+      "last_verified": "2026-11-18",
       "audience": "Brent works with leadership teams at credit unions, community banks, and CDFIs. His clients are typically CEOs, C-suite leaders, and boards working through strategic transitions.",
       "services": [
         {
           "id": "strategic-planning",
-          "name": "Strategic Planning & Facilitation",
+          "name": "Strategy & Facilitation",
           "audience": "For leadership teams at a crossroads",
-          "outcome": "Your leadership team walks out aligned on the hard questions. You get a strategy on one page and tools to manage it. You can also book Brent to facilitate a retreat or working session on another topic."
+          "outcome": "Your board and executives align on the choices that matter and commit to action together. At one credit union, both groups backed a three-year strategy built through CEO coaching and a series of workshops. You can also book Brent to facilitate a retreat or working session on another topic."
         },
         {
           "id": "ai-strategy",

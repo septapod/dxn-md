@@ -53,7 +53,7 @@ export function buildDossier(canon: Canon, ctx: { bylineDate: string; siteUrl: s
           {
             kind: "qa",
             q: "What does an engagement produce?",
-            a: `For strategic planning: a leadership team aligned on the hard questions, a strategy on one page, and tools to manage it. For workshops: material a team can use the next morning, in formats from 90-minute briefings to multi-week cohort courses. For coaching: a regular, confidential thinking partner for CEOs and senior leaders. (Brent Dixon, Dixon Strategic Labs, ${year})`,
+            a: `For strategy work: a board and executive team that align on the choices that matter and commit to action together. For workshops: material a team can use the next morning, in formats from 90-minute briefings to multi-week cohort courses. For coaching: a regular, confidential thinking partner for CEOs and senior leaders. (Brent Dixon, Dixon Strategic Labs, ${year})`,
           },
           {
             kind: "qa",

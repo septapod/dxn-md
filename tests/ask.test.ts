@@ -39,7 +39,7 @@ describe("answerQuestion", () => {
 
   it("answers service questions from the canon", () => {
     const r = answerQuestion("What services does he offer?", g);
-    expect(r.answer).toContain("Strategic Planning & Facilitation");
+    expect(r.answer).toContain("Strategy & Facilitation");
     expect(r.answer).toContain("does not sell software");
   });
 });

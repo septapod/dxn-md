@@ -4,11 +4,11 @@ title: Strategic Facilitator
 company: Dixon Strategic Labs
 company_founded: 2022
 location: Oakland, California
-last_verified: "2026-11-10"
+last_verified: "2026-11-18"
 summary: >-
-  Brent Dixon facilitates strategy and AI work with leadership teams at credit
-  unions, community banks, and CDFIs. Teams leave aligned on the hard
-  questions, with a shared vision and clear decisions.
+  Brent Dixon helps leadership teams at credit unions, community banks, and
+  CDFIs make hard choices together: where to focus, how to succeed, and what
+  not to pursue. They leave ready to get things done.
 narrative:
   - >-
     Brent Dixon is a strategic facilitator based in Oakland, California. He
@@ -22,6 +22,11 @@ narrative:
     stablecoins, emerging technology, experimentation, and strategic foresight.
     He lives in Oakland, California with his son and a bossy cat named Bug.
   - >-
+    Brent has given hundreds of talks and workshops on four continents, at
+    venues from the UN General Assembly Hall to the World Credit Union
+    Conference, NCUA, and the AICPA. For speaking engagements, he is
+    represented by Category 6 Consulting.
+  - >-
     Community guides Brent's work. He quotes Margaret Wheatley: "No matter the
     problem, community is the answer." In his words: "People think better
     together. I bring them together to facilitate their best thinking."
@@ -30,7 +35,31 @@ affiliations:
     role: Founder
     start: 2022
     current: true
-    detail: Strategy and AI facilitation for leadership teams at credit unions, community banks, and CDFIs.
+    detail: >-
+      Strategy and AI facilitation for leadership teams at credit unions,
+      community banks, and CDFIs. Since 2022, Brent has worked with more than
+      25 organizations: credit unions from about $23 million to more than $9
+      billion in assets, community banks, industry associations, government
+      agencies, foundations, and community organizers.
+  - org: AI for FIs
+    role: Writer and publisher
+    start: 2026
+    current: true
+    detail: >-
+      A weekly-ish newsletter for community finance leaders on how AI agents
+      are being used in financial services (https://ai4fis.beehiiv.com). Brent
+      built the system behind it. AI agents find sources and confirm each
+      claim, then the agents and Brent trade drafts and edits until every
+      story reads clearly. That back-and-forth is the biggest part of the
+      work. Brent chooses the stories and approves every issue.
+  - org: Trabian
+    role: Creative Director (2003 to 2008); Chief Design Officer (2021)
+    detail: >-
+      Worked with co-founders Matt Dean and Trey Reeme to build Trabian from
+      its embryonic stage, as its creative director from 2003 to 2008.
+      Trabian has since served hundreds of credit unions, banks, and
+      fintechs. Brent came back in 2021 as Chief Design Officer and led the
+      design team.
   - org: United Nations
     role: Innovation Lead; UN Innovation Network co-chair
     detail: >-

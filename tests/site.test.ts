@@ -22,7 +22,7 @@ describe("build output", () => {
     const md = read("services.md");
     const json = JSON.parse(read("services.json"));
     for (const text of [html, md]) {
-      expect(text).toContain("Strategic Planning & Facilitation".replace("&", text === html ? "&amp;" : "&"));
+      expect(text).toContain("Strategy & Facilitation".replace("&", text === html ? "&amp;" : "&"));
       expect(text).toContain("$200M to $3B");
     }
     expect(JSON.stringify(json)).toContain("$200M to $3B");

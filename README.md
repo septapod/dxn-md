@@ -13,6 +13,8 @@ The machine-readable companion to [dxn.is](https://dxn.is). Every surface — pa
 
 Edit a YAML file in `content/canon/`, commit, push. That is the entire editorial workflow — every surface regenerates. Update the fact's `last_verified` date when you verify it.
 
+Keep dxn.md and dxn.is (repo `septapod/dxnis`) in sync: every copy change on one gets the same change on the other, in the same session (Brent, 2026-11-18). `DXNIS_COPY_FINGERPRINT` holds the fingerprint of the dxn.is copy this canon mirrors. dxnis's `.githooks/pre-push` blocks a dxn.is copy change until this file on `main` matches, so push dxn.md first, then dxn.is. When you change copy here, make the same change in dxnis `index.html` and `llms.txt`.
+
 ## Commands
 
 ```bash
