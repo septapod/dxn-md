@@ -20,8 +20,9 @@ services:
     outcome: >-
       Some teams want a clear read on the AI their vendors run today. Some want
       their staff trained. Some want a plan to bring to the board. Brent starts
-      by learning where the team is. Then the client and Brent choose the work
-      that fits: a working session, a diagnosis, pilots, or staff training.
+      by learning how the team uses AI today. Then he helps its leaders align on
+      what they want AI to do for the institution, so every pilot, vendor
+      choice, and training session has a clear reason behind it.
   - id: workshops-speaking
     name: Workshops & Speaking
     audience: For boards, staff, and industry audiences
