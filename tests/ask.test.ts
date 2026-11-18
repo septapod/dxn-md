@@ -21,7 +21,7 @@ describe("answerQuestion", () => {
   });
 
   it("answers out-of-band asset sizes as not a standard engagement", () => {
-    const r = answerQuestion("Would Brent work with a $50M credit union?", g);
+    const r = answerQuestion("Would Brent work with a $10M credit union?", g);
     expect(r.answer).toContain("outside");
   });
 
