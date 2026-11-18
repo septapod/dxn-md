@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "41c0518a5c5a",
+  "canon_hash": "7bb90401e115",
   "latest_issue": {
     "title": "AI agents raised spending limits without owners&#39; permission",
     "link": "https://ai4fis.beehiiv.com/p/agents-boosting-limits",
@@ -325,7 +325,7 @@ const generated: GeneratedCanon = {
         },
         {
           "name": "Tested bets",
-          "body": "Every strategy is a bet. The question is whether you are improving the odds before you commit. \"What would need to be true for this to work?\", a question from the Playing to Win framework, turns a guess into something you can test, and a tested bet is one a team can adapt when reality shifts."
+          "body": "Every strategy is a bet. The question is whether you are improving the odds before you commit. \"What would need to be true for this to work?\" turns a guess into something you can test, and a tested bet is one a team can adapt when reality shifts."
         }
       ]
     },
