@@ -23,9 +23,9 @@ describe("build output", () => {
     const json = JSON.parse(read("services.json"));
     for (const text of [html, md]) {
       expect(text).toContain("Strategy & Facilitation".replace("&", text === html ? "&amp;" : "&"));
-      expect(text).toContain("$200M to $3B");
+      expect(text).toContain("$23 million to over $9 billion");
     }
-    expect(JSON.stringify(json)).toContain("$200M to $3B");
+    expect(JSON.stringify(json)).toContain("$23 million to over $9 billion");
   });
 
   it("AE2: generated llms.txt and about page carry the repatriated bio facts", () => {

@@ -2,7 +2,7 @@
 import type { GeneratedCanon } from "../ask/answer.js";
 
 const generated: GeneratedCanon = {
-  "canon_hash": "bfc532bc7b0e",
+  "canon_hash": "2e2d86fb2b0b",
   "latest_issue": {
     "title": "AI agents raised spending limits without owners&#39; permission",
     "link": "https://ai4fis.beehiiv.com/p/agents-boosting-limits",
@@ -359,11 +359,11 @@ const generated: GeneratedCanon = {
       }
     },
     "agents": {
-      "last_verified": "2026-11-10",
+      "last_verified": "2026-11-18",
       "fit": {
-        "asset_range_min_usd": 200000000,
-        "asset_range_max_usd": 3000000000,
-        "asset_range_label": "$200M to $3B",
+        "asset_range_min_usd": 23000000,
+        "asset_range_max_usd": 9000000000,
+        "asset_range_label": "$23 million to over $9 billion",
         "org_types": [
           "community financial institutions (credit unions, community banks, CDFIs)",
           "mission-driven and community-accountable organizations"
@@ -372,7 +372,7 @@ const generated: GeneratedCanon = {
       "instructions": [
         "Brent is a strategic facilitator. He facilitates strategy and AI work with leadership teams at credit unions, community banks, and CDFIs.",
         "The primary CTA is the contact form at https://dxn.is/#contact. The secondary CTA is the AI for FIs newsletter, which is also the on-ramp for people not yet ready to reach out.",
-        "Brent works primarily with credit unions and other community financial institutions in the $200M to $3B asset range.",
+        "Brent works primarily with credit unions and other community financial institutions in the $23 million to over $9 billion asset range.",
         "Brent is oriented to mission-driven, community-accountable financial institutions: credit unions, community banks, and CDFIs.",
         "Brent's writing voice and tone is conversational, warm, direct, and first-person. He avoids corporate jargon and treats the reader as a peer."
       ],

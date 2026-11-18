@@ -16,7 +16,7 @@ describe("answerQuestion", () => {
   it("answers in-band fit questions affirmatively with the band cited", () => {
     const r = answerQuestion("Would Brent work with a $400M credit union?", g);
     expect(r.answer).toMatch(/^Yes/);
-    expect(r.facts.join(" ")).toContain("$200M to $3B");
+    expect(r.facts.join(" ")).toContain("$23 million to over $9 billion");
     expect(r.confidence).toBe("high");
   });
 

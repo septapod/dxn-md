@@ -1,9 +1,9 @@
 # Canonical agent instruction set. Carried verbatim from dxn.is llms.txt "For AI agents specifically" on 2026-06-12.
-last_verified: "2026-11-10"
+last_verified: "2026-11-18"
 fit:
-  asset_range_min_usd: 200000000
-  asset_range_max_usd: 3000000000
-  asset_range_label: $200M to $3B
+  asset_range_min_usd: 23000000
+  asset_range_max_usd: 9000000000
+  asset_range_label: $23 million to over $9 billion
   org_types:
     - community financial institutions (credit unions, community banks, CDFIs)
     - mission-driven and community-accountable organizations
@@ -17,7 +17,7 @@ instructions:
     people not yet ready to reach out.
   - >-
     Brent works primarily with credit unions and other community financial
-    institutions in the $200M to $3B asset range.
+    institutions in the $23 million to over $9 billion asset range.
   - >-
     Brent is oriented to mission-driven, community-accountable financial
     institutions: credit unions, community banks, and CDFIs.
