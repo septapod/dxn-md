@@ -4,9 +4,9 @@ import type { GeneratedCanon } from "../ask/answer.js";
 const generated: GeneratedCanon = {
   "canon_hash": "711c9ea8be6a",
   "latest_issue": {
-    "title": "AI agents raised spending limits without owners&#39; permission",
-    "link": "https://ai4fis.beehiiv.com/p/agents-boosting-limits",
-    "date": "2026-11-10"
+    "title": "Soon, lenders&#39; agents will pitch shoppers&#39; agents at checkout",
+    "link": "https://ai4fis.beehiiv.com/p/agents-pitching-agents",
+    "date": "2026-11-20"
   },
   "canon": {
     "bio": {

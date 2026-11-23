@@ -1,6 +1,57 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-18",
   "entries": [
+    {
+      "date": "2026-11-18",
+      "summary": "fix(canon): drop 'already' in the AI service copy",
+      "areas": [
+        "services"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "summary": "feat(canon): AI panel outcome copy and Porter context match dxn.is",
+      "areas": [
+        "framework",
+        "services"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "summary": "fix(canon): drop the framework citation from Tested bets",
+      "areas": [
+        "framework"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "summary": "feat(canon): AI panel copy matches dxn.is",
+      "areas": [
+        "services"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "summary": "fix(canon): asset range is $23 million to over $9 billion",
+      "areas": [
+        "agents"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "summary": "feat(canon): sync with dxn.is copy of 2026-11-18",
+      "areas": [
+        "bio",
+        "services"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "summary": "chore(data): weekly feed snapshot and change log refresh",
+      "areas": [
+        "newsletter-feed"
+      ]
+    },
     {
       "date": "2026-11-11",
       "summary": "fix(canon): Moeda role is founding team, not co-founder",
